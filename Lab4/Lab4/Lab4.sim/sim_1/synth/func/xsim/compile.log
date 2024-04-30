@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.sim/sim_1/synth/func/xsim/testbench_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-311] analyzing module Multiplier_toplevel
+INFO: [VRFC 10-311] analyzing module Reg_8
+INFO: [VRFC 10-311] analyzing module Sync
+INFO: [VRFC 10-311] analyzing module Sync_0
+INFO: [VRFC 10-311] analyzing module Sync_1
+INFO: [VRFC 10-311] analyzing module Sync_2
+INFO: [VRFC 10-311] analyzing module Sync_3
+INFO: [VRFC 10-311] analyzing module Sync_4
+INFO: [VRFC 10-311] analyzing module Sync_5
+INFO: [VRFC 10-311] analyzing module Sync_6
+INFO: [VRFC 10-311] analyzing module Sync_7
+INFO: [VRFC 10-311] analyzing module Sync_8
+INFO: [VRFC 10-311] analyzing module hex_driver
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,6 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/14435/Desktop/ECE385/Lab3/project_1/project_1.sim/sim_1/synth/func/xsim/bench_func_synth.v,1708288000,verilog,,,,adder_toplevel;glbl;load_reg;load_reg__parameterized0;negedge_detector;sync_debounce;sync_debounce_0,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab3/project_1/project_1.srcs/sim_1/new/testbench.sv,1708287882,systemVerilog,,,,bench,,uvm,,,,,,

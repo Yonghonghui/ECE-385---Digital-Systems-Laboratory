@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sim_1/new/testbench.sv,1708906758,systemVerilog,,,,testbench,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/Add_9.sv,1708061606,systemVerilog,C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sim_1/new/testbench.sv;C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/Control.sv;C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/HexDriver.sv;C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/Multiplier_toplevel.sv;C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/Reg_8.sv;C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/Sync.sv,C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/Control.sv,,Add_9;Adder4;full_adder,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/Control.sv,1708086162,systemVerilog,,C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/HexDriver.sv,,Control,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/HexDriver.sv,1707981403,systemVerilog,,C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/Multiplier_toplevel.sv,,hex_driver,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/Multiplier_toplevel.sv,1708910361,systemVerilog,,C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/Reg_8.sv,,Multiplier_toplevel,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/Reg_8.sv,1708061606,systemVerilog,,C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/Sync.sv,,Reg_8,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sources_1/new/Sync.sv,1708081124,systemVerilog,,C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sim_1/new/testbench.sv,,Sync,,uvm,,,,,,

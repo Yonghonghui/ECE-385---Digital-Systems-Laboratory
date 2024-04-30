@@ -1,0 +1,14 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/14435/Desktop/ECE385/Lab3/design_source/adder_toplevel.sv,1708401674,systemVerilog,C:/Users/14435/Desktop/ECE385/Lab3/design_source/hex_driver.sv;C:/Users/14435/Desktop/ECE385/Lab3/design_source/load_reg.sv;C:/Users/14435/Desktop/ECE385/Lab3/design_source/negedge_detector.sv;C:/Users/14435/Desktop/ECE385/Lab3/design_source/ripple_adder.sv;C:/Users/14435/Desktop/ECE385/Lab3/design_source/select_adder.sv;C:/Users/14435/Desktop/ECE385/Lab3/design_source/sync_debounce.sv;C:/Users/14435/Desktop/ECE385/Lab3/project_1/project_1.srcs/sim_1/new/testbench.sv,C:/Users/14435/Desktop/ECE385/Lab3/design_source/hex_driver.sv,,$unit_adder_toplevel_sv_1404227017;adder_toplevel,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab3/design_source/hex_driver.sv,1708370081,systemVerilog,C:/Users/14435/Desktop/ECE385/Lab3/design_source/adder_toplevel.sv;C:/Users/14435/Desktop/ECE385/Lab3/design_source/load_reg.sv;C:/Users/14435/Desktop/ECE385/Lab3/design_source/negedge_detector.sv;C:/Users/14435/Desktop/ECE385/Lab3/design_source/ripple_adder.sv;C:/Users/14435/Desktop/ECE385/Lab3/design_source/select_adder.sv;C:/Users/14435/Desktop/ECE385/Lab3/design_source/sync_debounce.sv,C:/Users/14435/Desktop/ECE385/Lab3/design_source/load_reg.sv,,hex_driver,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab3/design_source/load_reg.sv,1707272686,systemVerilog,,C:/Users/14435/Desktop/ECE385/Lab3/design_source/negedge_detector.sv,,load_reg,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab3/design_source/lookahead_adder.sv,1707290722,systemVerilog,,C:/Users/14435/Desktop/ECE385/Lab3/design_source/negedge_detector.sv,,CLA4;lookahead_adder,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab3/design_source/negedge_detector.sv,1707272687,systemVerilog,,C:/Users/14435/Desktop/ECE385/Lab3/design_source/ripple_adder.sv,,negedge_detector,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab3/design_source/ripple_adder.sv,1707281936,systemVerilog,,C:/Users/14435/Desktop/ECE385/Lab3/design_source/select_adder.sv,,Adder4;full_adder;ripple_adder,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab3/design_source/select_adder.sv,1707355854,systemVerilog,,C:/Users/14435/Desktop/ECE385/Lab3/design_source/sync_debounce.sv,,MUX;select_adder,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab3/design_source/sync_debounce.sv,1707272687,systemVerilog,,C:/Users/14435/Desktop/ECE385/Lab3/project_1/project_1.srcs/sim_1/new/testbench.sv,,sync_debounce,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab3/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab3/project_1/project_1.srcs/sim_1/new/testbench.sv,1708310751,systemVerilog,,,,bench,,uvm,,,,,,

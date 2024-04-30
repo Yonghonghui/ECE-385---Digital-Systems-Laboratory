@@ -1,0 +1,1018 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Mar 29 15:22:40 2024
+# Process ID: 22792
+# Current directory: C:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.runs/impl_1
+# Command line: vivado.exe -log mb_usb_hdmi_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mb_usb_hdmi_top.tcl -notrace
+# Log file: C:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.runs/impl_1/mb_usb_hdmi_top.vdi
+# Journal file: C:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.runs/impl_1\vivado.jou
+# Running On: BOOK-SIO57HHSUH, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 12, Host memory: 16706 MB
+#-----------------------------------------------------------
+source mb_usb_hdmi_top.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 372.414 ; gain = 50.883
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/14435/Desktop/ECE385/Lab7_1/ip_repo/hdmi_text_controller_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/14435/Desktop/ECE385/Lab7_1/ip_repo/RD_hdmi_ip2020'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/14435/Desktop/Vivado/2022.2/data/ip'.
+Command: link_design -top mb_usb_hdmi_top -part xc7s50csga324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_axi_uartlite_0_0/Lab7_1_axi_uartlite_0_0.dcp' for cell 'mb_block_HDMI/axi_uartlite_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_clk_wiz_1_0/Lab7_1_clk_wiz_1_0.dcp' for cell 'mb_block_HDMI/clk_wiz_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_hdmi_text_controller_0_0/Lab7_1_hdmi_text_controller_0_0.dcp' for cell 'mb_block_HDMI/hdmi_text_controller_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_mdm_1_0/Lab7_1_mdm_1_0.dcp' for cell 'mb_block_HDMI/mdm_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_microblaze_0_0/Lab7_1_microblaze_0_0.dcp' for cell 'mb_block_HDMI/microblaze_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_microblaze_0_axi_intc_0/Lab7_1_microblaze_0_axi_intc_0.dcp' for cell 'mb_block_HDMI/microblaze_0_axi_intc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_rst_clk_wiz_1_100M_0/Lab7_1_rst_clk_wiz_1_100M_0.dcp' for cell 'mb_block_HDMI/rst_clk_wiz_1_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_xbar_0/Lab7_1_xbar_0.dcp' for cell 'mb_block_HDMI/microblaze_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_dlmb_bram_if_cntlr_0/Lab7_1_dlmb_bram_if_cntlr_0.dcp' for cell 'mb_block_HDMI/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_dlmb_v10_0/Lab7_1_dlmb_v10_0.dcp' for cell 'mb_block_HDMI/microblaze_0_local_memory/dlmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_ilmb_bram_if_cntlr_0/Lab7_1_ilmb_bram_if_cntlr_0.dcp' for cell 'mb_block_HDMI/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_ilmb_v10_0/Lab7_1_ilmb_v10_0.dcp' for cell 'mb_block_HDMI/microblaze_0_local_memory/ilmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_lmb_bram_0/Lab7_1_lmb_bram_0.dcp' for cell 'mb_block_HDMI/microblaze_0_local_memory/lmb_bram'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.899 . Memory (MB): peak = 907.000 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7849 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'mb_usb_hdmi_top' is not ideal for floorplanning, since the cellview 'Lab7_1_hdmi_text_controller_0_0_hdmi_text_controller_v1_0_AXI' defined in file 'Lab7_1_hdmi_text_controller_0_0.edf' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. mb_block_HDMI/hdmi_text_controller_0/inst/clk_wiz/inst/clkin1_ibufg 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'mb_block_HDMI/hdmi_text_controller_0/axi_aclk' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_microblaze_0_0/Lab7_1_microblaze_0_0.xdc] for cell 'mb_block_HDMI/microblaze_0/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_microblaze_0_0/Lab7_1_microblaze_0_0.xdc] for cell 'mb_block_HDMI/microblaze_0/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_microblaze_0_axi_intc_0/Lab7_1_microblaze_0_axi_intc_0.xdc] for cell 'mb_block_HDMI/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_microblaze_0_axi_intc_0/Lab7_1_microblaze_0_axi_intc_0.xdc] for cell 'mb_block_HDMI/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_clk_wiz_1_0/Lab7_1_clk_wiz_1_0_board.xdc] for cell 'mb_block_HDMI/clk_wiz_1/inst'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_clk_wiz_1_0/Lab7_1_clk_wiz_1_0_board.xdc] for cell 'mb_block_HDMI/clk_wiz_1/inst'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_clk_wiz_1_0/Lab7_1_clk_wiz_1_0.xdc] for cell 'mb_block_HDMI/clk_wiz_1/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_clk_wiz_1_0/Lab7_1_clk_wiz_1_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_clk_wiz_1_0/Lab7_1_clk_wiz_1_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:06 ; elapsed = 00:00:20 . Memory (MB): peak = 1538.031 ; gain = 487.773
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_clk_wiz_1_0/Lab7_1_clk_wiz_1_0.xdc] for cell 'mb_block_HDMI/clk_wiz_1/inst'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_rst_clk_wiz_1_100M_0/Lab7_1_rst_clk_wiz_1_100M_0_board.xdc] for cell 'mb_block_HDMI/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_rst_clk_wiz_1_100M_0/Lab7_1_rst_clk_wiz_1_100M_0_board.xdc] for cell 'mb_block_HDMI/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_rst_clk_wiz_1_100M_0/Lab7_1_rst_clk_wiz_1_100M_0.xdc] for cell 'mb_block_HDMI/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_rst_clk_wiz_1_100M_0/Lab7_1_rst_clk_wiz_1_100M_0.xdc] for cell 'mb_block_HDMI/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_axi_uartlite_0_0/Lab7_1_axi_uartlite_0_0_board.xdc] for cell 'mb_block_HDMI/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_axi_uartlite_0_0/Lab7_1_axi_uartlite_0_0_board.xdc] for cell 'mb_block_HDMI/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_axi_uartlite_0_0/Lab7_1_axi_uartlite_0_0.xdc] for cell 'mb_block_HDMI/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_axi_uartlite_0_0/Lab7_1_axi_uartlite_0_0.xdc] for cell 'mb_block_HDMI/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.xdc] for cell 'mb_block_HDMI/hdmi_text_controller_0/inst/clk_wiz/inst'
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.xdc] for cell 'mb_block_HDMI/hdmi_text_controller_0/inst/clk_wiz/inst'
+Parsing XDC File [C:/Users/14435/Desktop/ECE385/Lab7_1/lab7_1_provided_sp24/mb_usb_hdmi_top.xdc]
+CRITICAL WARNING: [Constraints 18-1055] Clock 'clk_100' completely overrides clock 'Clk', which is referenced by one or more other constraints. Any constraints that refer to the overridden clock will be ignored.
+New: create_clock -period 10.000 -name clk_100 -waveform {0.000 5.000} [get_ports Clk], [C:/Users/14435/Desktop/ECE385/Lab7_1/lab7_1_provided_sp24/mb_usb_hdmi_top.xdc:1]
+Previous: create_clock -period 10.000 [get_ports Clk], [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_clk_wiz_1_0/Lab7_1_clk_wiz_1_0.xdc:56]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+Finished Parsing XDC File [C:/Users/14435/Desktop/ECE385/Lab7_1/lab7_1_provided_sp24/mb_usb_hdmi_top.xdc]
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_microblaze_0_axi_intc_0/Lab7_1_microblaze_0_axi_intc_0_clocks.xdc] for cell 'mb_block_HDMI/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_microblaze_0_axi_intc_0/Lab7_1_microblaze_0_axi_intc_0_clocks.xdc] for cell 'mb_block_HDMI/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_mdm_1_0/Lab7_1_mdm_1_0.xdc] for cell 'mb_block_HDMI/mdm_1/U0'
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_mdm_1_0/Lab7_1_mdm_1_0.xdc:50]
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_mdm_1_0/Lab7_1_mdm_1_0.xdc] for cell 'mb_block_HDMI/mdm_1/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'mb_usb_hdmi_top'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.gen/sources_1/bd/Lab7_1/ip/Lab7_1_microblaze_0_0/data/mb_bootloop_le.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1538.031 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 241 instances were transformed.
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 145 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 32 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 64 instances
+
+29 Infos, 3 Warnings, 1 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:21 ; elapsed = 00:01:04 . Memory (MB): peak = 1538.031 ; gain = 1107.707
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1538.031 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 206bc1946
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1560.270 ; gain = 22.238
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter mb_block_HDMI/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/Use_BSCAN.FDC_I/Use_Serial_Unified_Completion.Completion_Status_Register.sample_1[15]_i_1 into driver instance mb_block_HDMI/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/Use_BSCAN.FDC_I/Use_Serial_Unified_Completion.Completion_Status_Register.sample_1[15]_i_2, which resulted in an inversion of 14 pins
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 4 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1ff5fc21a
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1888.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 170 cells and removed 252 cells
+INFO: [Opt 31-1021] In phase Retarget, 4 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 9 inverter(s) to 15 load pin(s).
+Phase 2 Constant propagation | Checksum: 235e93d75
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1888.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 127 cells and removed 285 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 238a90914
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1888.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 81 cells
+INFO: [Opt 31-1021] In phase Sweep, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG mb_block_HDMI/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG_inst to drive 40 load(s) on clock net mb_block_HDMI/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: 20f0bad61
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1888.457 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 20f0bad61
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1888.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1d5efcee3
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1888.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             170  |             252  |                                              4  |
+|  Constant propagation         |             127  |             285  |                                              1  |
+|  Sweep                        |               0  |              81  |                                              1  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              1  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.197 . Memory (MB): peak = 1888.457 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 21a0240fa
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1888.457 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 32 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 64
+Ending PowerOpt Patch Enables Task | Checksum: 21a0240fa
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.663 . Memory (MB): peak = 2080.535 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 21a0240fa
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 2080.535 ; gain = 192.078
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 21a0240fa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 2080.535 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 21a0240fa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 2080.535 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+58 Infos, 3 Warnings, 1 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:42 . Memory (MB): peak = 2080.535 ; gain = 542.504
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.071 . Memory (MB): peak = 2080.535 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.runs/impl_1/mb_usb_hdmi_top_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 2080.535 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file mb_usb_hdmi_top_drc_opted.rpt -pb mb_usb_hdmi_top_drc_opted.pb -rpx mb_usb_hdmi_top_drc_opted.rpx
+Command: report_drc -file mb_usb_hdmi_top_drc_opted.rpt -pb mb_usb_hdmi_top_drc_opted.pb -rpx mb_usb_hdmi_top_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.runs/impl_1/mb_usb_hdmi_top_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2080.535 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 2080.535 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 179f4700f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 2080.535 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 50b567db
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 67906da5
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:25 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 67906da5
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:25 . Memory (MB): peak = 2080.535 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 67906da5
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:25 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 14f703ffd
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:32 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 133a0d8fb
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:38 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 133a0d8fb
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:38 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 13ae1b3e2
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:01:36 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 5 LUTNM shape to break, 2085 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 5, total 5, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 1025 nets or LUTs. Breaked 5 LUTs, combined 1020 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-76] Pass 1. Identified 1 candidate net for fanout optimization.
+INFO: [Physopt 32-81] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/p_0_in[3]. Replicated 6 times.
+INFO: [Physopt 32-232] Optimized 1 net. Created 6 new instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 6 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.660 . Memory (MB): peak = 2080.535 ; gain = 0.000
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-775] End 1 Pass. Optimized 11 nets or cells. Created 11 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 2080.535 ; gain = 0.000
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            5  |           1020  |                  1025  |           0  |           1  |  00:00:03  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            6  |              0  |                     1  |           0  |           1  |  00:00:01  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |           11  |              0  |                    11  |           0  |           1  |  00:00:01  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |           22  |           1020  |                  1037  |           0  |           9  |  00:00:05  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 1be4907c2
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:01:49 . Memory (MB): peak = 2080.535 ; gain = 0.000
+Phase 2.4 Global Placement Core | Checksum: 1050b7228
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:01:52 . Memory (MB): peak = 2080.535 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 1050b7228
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:01:52 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: f80a9814
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:01:59 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: ef321a22
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:02:11 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1089bb3c6
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:02:13 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 15509efc8
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:02:13 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: a86b1819
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:02:28 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 1670afcee
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:03:00 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 192a957c3
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:03:05 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 19c929eff
+
+Time (s): cpu = 00:01:30 ; elapsed = 00:03:06 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 143101a3d
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:03:39 . Memory (MB): peak = 2080.535 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 143101a3d
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:03:39 . Memory (MB): peak = 2080.535 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1dad67fe6
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.665 | TNS=-14.531 |
+Phase 1 Physical Synthesis Initialization | Checksum: 170c4b79c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2108.293 ; gain = 0.000
+INFO: [Place 46-33] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/reset_ah, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-56] BUFG insertion identified 1 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 1, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 13e9aa3f8
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 2108.293 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1dad67fe6
+
+Time (s): cpu = 00:02:03 ; elapsed = 00:04:10 . Memory (MB): peak = 2108.293 ; gain = 27.758
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-0.771. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 12a8a10f8
+
+Time (s): cpu = 00:02:15 ; elapsed = 00:04:36 . Memory (MB): peak = 2108.293 ; gain = 27.758
+
+Time (s): cpu = 00:02:15 ; elapsed = 00:04:36 . Memory (MB): peak = 2108.293 ; gain = 27.758
+Phase 4.1 Post Commit Optimization | Checksum: 12a8a10f8
+
+Time (s): cpu = 00:02:15 ; elapsed = 00:04:37 . Memory (MB): peak = 2108.293 ; gain = 27.758
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 12a8a10f8
+
+Time (s): cpu = 00:02:15 ; elapsed = 00:04:37 . Memory (MB): peak = 2108.293 ; gain = 27.758
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                2x2|                8x8|
+|___________|___________________|___________________|
+|      South|                1x1|                4x4|
+|___________|___________________|___________________|
+|       East|                1x1|                4x4|
+|___________|___________________|___________________|
+|       West|                1x1|                4x4|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 12a8a10f8
+
+Time (s): cpu = 00:02:15 ; elapsed = 00:04:37 . Memory (MB): peak = 2108.293 ; gain = 27.758
+Phase 4.3 Placer Reporting | Checksum: 12a8a10f8
+
+Time (s): cpu = 00:02:15 ; elapsed = 00:04:37 . Memory (MB): peak = 2108.293 ; gain = 27.758
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.111 . Memory (MB): peak = 2108.293 ; gain = 0.000
+
+Time (s): cpu = 00:02:16 ; elapsed = 00:04:38 . Memory (MB): peak = 2108.293 ; gain = 27.758
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 164e8235a
+
+Time (s): cpu = 00:02:16 ; elapsed = 00:04:38 . Memory (MB): peak = 2108.293 ; gain = 27.758
+Ending Placer Task | Checksum: 13835c3be
+
+Time (s): cpu = 00:02:16 ; elapsed = 00:04:38 . Memory (MB): peak = 2108.293 ; gain = 27.758
+INFO: [Common 17-83] Releasing license: Implementation
+99 Infos, 3 Warnings, 1 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:02:20 ; elapsed = 00:04:43 . Memory (MB): peak = 2108.293 ; gain = 27.758
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2108.293 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.runs/impl_1/mb_usb_hdmi_top_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2108.293 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file mb_usb_hdmi_top_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 2108.293 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file mb_usb_hdmi_top_utilization_placed.rpt -pb mb_usb_hdmi_top_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file mb_usb_hdmi_top_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.245 . Memory (MB): peak = 2108.293 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2115.344 ; gain = 7.051
+INFO: [Vivado_Tcl 4-1435] PhysOpt_Tcl_Interface Runtime Before Starting Physical Synthesis Task | CPU: 5.00s |  WALL: 5.46s
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2115.344 ; gain = 0.000
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.771 | TNS=-3.951 |
+Phase 1 Physical Synthesis Initialization | Checksum: 10eb6ea03
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 2126.266 ; gain = 10.922
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.771 | TNS=-3.951 |
+
+Phase 2 DSP Register Optimization
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 2 DSP Register Optimization | Checksum: 10eb6ea03
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2126.266 ; gain = 10.922
+
+Phase 3 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.771 | TNS=-3.951 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/srlopt_n_9. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/clk_wiz_1/inst/clk_out1_Lab7_1_clk_wiz_1_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_17_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_23_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_38_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_97_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/char_e[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/cur_data[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_18_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_64_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_166_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_376_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_813_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_1447_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.643 | TNS=-2.926 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/cur_data[19]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_22_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_74_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_182_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.637 | TNS=-2.895 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_1448_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.637 | TNS=-2.895 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_375_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_811_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_1444_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.631 | TNS=-2.825 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_15_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_21_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.610 | TNS=-2.409 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_96_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/g31_b6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/hc_reg[3]_1. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.609 | TNS=-2.165 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_1444_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.601 | TNS=-2.117 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_1443_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.575 | TNS=-1.961 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_814_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_1450_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.573 | TNS=-1.949 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_39_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 23 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_102_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.563 | TNS=-1.897 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_24_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_45_n_0.  Re-placed instance mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_45
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_45_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.560 | TNS=-1.882 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_1444_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/red[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg_n_0_[245][11].  Re-placed instance mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[245][11]
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg_n_0_[245][11]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.554 | TNS=-1.858 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_1443_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg_n_0_[241][11].  Re-placed instance mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg[241][11]
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg_n_0_[241][11]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.552 | TNS=-1.850 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_44_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.549 | TNS=-1.838 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 12 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/cur_data[3]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.549 | TNS=-1.838 |
+INFO: [Physopt 32-663] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/char_e[4].  Re-placed instance mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/vga_to_hdmi_i_66
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/char_e[4]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.549 | TNS=-1.862 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_100_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/g14_b6_n_0.  Re-placed instance mb_block_HDMI/hdmi_text_controller_0/inst/vga/g14_b6
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/g14_b6_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.546 | TNS=-1.850 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_181_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.543 | TNS=-1.838 |
+INFO: [Physopt 32-663] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/char_e[4].  Re-placed instance mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/vga_to_hdmi_i_66
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/char_e[4]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.540 | TNS=-1.802 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_182_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_420_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_861_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_1544_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.534 | TNS=-1.778 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_42_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_113_n_0.  Re-placed instance mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_113
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_113_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.531 | TNS=-1.766 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 6 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/char_e[4]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.529 | TNS=-1.758 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_112_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/g31_b4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/char_e[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.518 | TNS=-1.630 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_1448_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg_n_0_[229][11]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg_n_0_[229][11]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.517 | TNS=-1.626 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_1447_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg_n_0_[224][11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/srlopt_n_9. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/clk_wiz_1/inst/clk_out1_Lab7_1_clk_wiz_1_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_17_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_23_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_38_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_97_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/char_e[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/cur_data[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_18_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_64_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_166_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_376_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_813_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_1447_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/red[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg_n_0_[224][11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.517 | TNS=-1.626 |
+Phase 3 Critical Path Optimization | Checksum: 10eb6ea03
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2132.141 ; gain = 16.797
+
+Phase 4 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.517 | TNS=-1.626 |
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/srlopt_n_9. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/clk_wiz_1/inst/clk_out1_Lab7_1_clk_wiz_1_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_17_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_23_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_38_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_97_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/char_e[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/cur_data[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_18_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_64_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_166_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_376_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_813_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_1447_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/red[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg_n_0_[224][11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/srlopt_n_9. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/clk_wiz_1/inst/clk_out1_Lab7_1_clk_wiz_1_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_17_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_23_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_38_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_97_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/char_e[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/cur_data[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_18_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_64_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_166_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_376_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_813_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/g2_b0_i_1447_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/vga/red[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_block_HDMI/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/slv_regs_reg_n_0_[224][11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.517 | TNS=-1.626 |
+Phase 4 Critical Path Optimization | Checksum: 10eb6ea03
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 2132.141 ; gain = 16.797
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.312 . Memory (MB): peak = 2132.141 ; gain = 0.000
+INFO: [Physopt 32-603] Post Physical Optimization Timing Summary | WNS=-0.517 | TNS=-1.626 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization   |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  DSP Register   |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Path  |          0.254  |          2.325  |            1  |              0  |                    24  |           0  |           2  |  00:00:10  |
+|  Total          |          0.254  |          2.325  |            1  |              0  |                    24  |           0  |           3  |  00:00:10  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 2132.141 ; gain = 0.000
+Ending Physical Synthesis Task | Checksum: 16df3945f
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 2132.141 ; gain = 16.797
+INFO: [Common 17-83] Releasing license: Implementation
+274 Infos, 3 Warnings, 1 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:19 . Memory (MB): peak = 2132.141 ; gain = 23.848
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2141.578 ; gain = 9.438
+INFO: [Common 17-1381] The checkpoint 'C:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.runs/impl_1/mb_usb_hdmi_top_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 2141.578 ; gain = 9.438
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 76c9d75e ConstDB: 0 ShapeSum: 627e3fd RouteDB: 0
+Post Restoration Checksum: NetGraph: ae691aab NumContArr: a1963272 Constraints: 0 Timing: 0
+Phase 1 Build RT Design | Checksum: 14fff4d1d
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 2196.582 ; gain = 55.004
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 14fff4d1d
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 2197.621 ; gain = 56.043
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 14fff4d1d
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 2197.621 ; gain = 56.043
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 21f02df93
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:34 . Memory (MB): peak = 2239.715 ; gain = 98.137
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.429 | TNS=-0.909 | WHS=-1.397 | THS=-242.188|
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00677669 %
+  Global Horizontal Routing Utilization  = 0.00130141 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 28797
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 28796
+  Number of Partially Routed Nets     = 1
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 207414c54
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 2269.293 ; gain = 127.715
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 207414c54
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 2269.293 ; gain = 127.715
+Phase 3 Initial Routing | Checksum: 236ed3f85
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:54 . Memory (MB): peak = 2296.633 ; gain = 155.055
+INFO: [Route 35-580] Design has 12 pins with tight setup and hold constraints.
+
+The top 5 pins with tight setup and hold constraints:
+
++===============================+===============================+==============================================================================================+
+| Launch Setup Clock            | Launch Hold Clock             | Pin                                                                                          |
++===============================+===============================+==============================================================================================+
+| clk_out1_Lab7_1_clk_wiz_1_0_1 | clk_out1_Lab7_1_clk_wiz_1_0_1 | mb_block_HDMI/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/srl[37].srl16_i_srlopt/D |
+| clk_out1_Lab7_1_clk_wiz_1_0_1 | clk_out1_Lab7_1_clk_wiz_1_0_1 | mb_block_HDMI/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/srl[21].srl16_i_srlopt/D |
+| clk_out1_Lab7_1_clk_wiz_1_0_1 | clk_out1_Lab7_1_clk_wiz_1_0_1 | mb_block_HDMI/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/srl[31].srl16_i_srlopt/D |
+| clk_out1_Lab7_1_clk_wiz_1_0_1 | clk_out1_Lab7_1_clk_wiz_1_0_1 | mb_block_HDMI/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/srl[36].srl16_i_srlopt/D |
+| clk_out1_Lab7_1_clk_wiz_1_0_1 | clk_out1_Lab7_1_clk_wiz_1_0_1 | mb_block_HDMI/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/srl[22].srl16_i_srlopt/D |
++-------------------------------+-------------------------------+----------------------------------------------------------------------------------------------+
+
+File with complete list of pins: tight_setup_hold_pins.txt
+
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 14152
+ Number of Nodes with overlaps = 4773
+ Number of Nodes with overlaps = 1590
+ Number of Nodes with overlaps = 222
+ Number of Nodes with overlaps = 114
+ Number of Nodes with overlaps = 35
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.957 | TNS=-11.972| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 95e2fbdd
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:02:45 . Memory (MB): peak = 2315.688 ; gain = 174.109
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 8934
+ Number of Nodes with overlaps = 3706
+ Number of Nodes with overlaps = 909
+ Number of Nodes with overlaps = 374
+ Number of Nodes with overlaps = 111
+ Number of Nodes with overlaps = 33
+ Number of Nodes with overlaps = 12
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.310 | TNS=-6.206 | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1b6d19122
+
+Time (s): cpu = 00:01:54 ; elapsed = 00:04:09 . Memory (MB): peak = 2315.688 ; gain = 174.109
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 9344
+Phase 4.3 Global Iteration 2 | Checksum: e65773f3
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:04:24 . Memory (MB): peak = 2315.688 ; gain = 174.109
+Phase 4 Rip-up And Reroute | Checksum: e65773f3
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:04:24 . Memory (MB): peak = 2315.688 ; gain = 174.109
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1bb4f00a4
+
+Time (s): cpu = 00:02:00 ; elapsed = 00:04:27 . Memory (MB): peak = 2315.688 ; gain = 174.109
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.310 | TNS=-6.206 | WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 1abfd500d
+
+Time (s): cpu = 00:02:01 ; elapsed = 00:04:28 . Memory (MB): peak = 2315.688 ; gain = 174.109
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1abfd500d
+
+Time (s): cpu = 00:02:01 ; elapsed = 00:04:28 . Memory (MB): peak = 2315.688 ; gain = 174.109
+Phase 5 Delay and Skew Optimization | Checksum: 1abfd500d
+
+Time (s): cpu = 00:02:01 ; elapsed = 00:04:28 . Memory (MB): peak = 2315.688 ; gain = 174.109
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 163636745
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:04:31 . Memory (MB): peak = 2315.688 ; gain = 174.109
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.310 | TNS=-6.206 | WHS=0.053  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 17cf67c29
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:04:31 . Memory (MB): peak = 2315.688 ; gain = 174.109
+Phase 6 Post Hold Fix | Checksum: 17cf67c29
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:04:31 . Memory (MB): peak = 2315.688 ; gain = 174.109
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 29.3982 %
+  Global Horizontal Routing Utilization  = 28.1169 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 87.3874%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X10Y115 -> INT_L_X10Y115
+   INT_L_X24Y103 -> INT_L_X24Y103
+   INT_L_X26Y61 -> INT_L_X26Y61
+   INT_R_X25Y59 -> INT_R_X25Y59
+South Dir 1x1 Area, Max Cong = 94.5946%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_R_X11Y120 -> INT_R_X11Y120
+   INT_R_X15Y117 -> INT_R_X15Y117
+   INT_L_X14Y116 -> INT_L_X14Y116
+   INT_L_X22Y113 -> INT_L_X22Y113
+   INT_L_X22Y110 -> INT_L_X22Y110
+East Dir 1x1 Area, Max Cong = 86.7647%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_R_X27Y57 -> INT_R_X27Y57
+West Dir 1x1 Area, Max Cong = 98.5294%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_R_X15Y117 -> INT_R_X15Y117
+   INT_R_X17Y117 -> INT_R_X17Y117
+   INT_L_X14Y116 -> INT_L_X14Y116
+   INT_R_X17Y115 -> INT_R_X17Y115
+   INT_L_X14Y114 -> INT_L_X14Y114
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 1
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 1 Aspect Ratio: 0.666667 Sparse Ratio: 1
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 1
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 2 Aspect Ratio: 0.75 Sparse Ratio: 0.5
+
+Phase 7 Route finalize | Checksum: 13fcf1b3f
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:04:31 . Memory (MB): peak = 2315.688 ; gain = 174.109
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 13fcf1b3f
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:04:31 . Memory (MB): peak = 2315.688 ; gain = 174.109
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 20762aec3
+
+Time (s): cpu = 00:02:03 ; elapsed = 00:04:35 . Memory (MB): peak = 2315.688 ; gain = 174.109
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-1.310 | TNS=-6.206 | WHS=0.053  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 20762aec3
+
+Time (s): cpu = 00:02:03 ; elapsed = 00:04:38 . Memory (MB): peak = 2315.688 ; gain = 174.109
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:02:03 ; elapsed = 00:04:38 . Memory (MB): peak = 2315.688 ; gain = 174.109
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+293 Infos, 4 Warnings, 1 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:02:04 ; elapsed = 00:04:40 . Memory (MB): peak = 2315.688 ; gain = 174.109
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2315.688 ; gain = 0.000
+report_design_analysis: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2315.688 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.runs/impl_1/mb_usb_hdmi_top_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 2315.688 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file mb_usb_hdmi_top_drc_routed.rpt -pb mb_usb_hdmi_top_drc_routed.pb -rpx mb_usb_hdmi_top_drc_routed.rpx
+Command: report_drc -file mb_usb_hdmi_top_drc_routed.rpt -pb mb_usb_hdmi_top_drc_routed.pb -rpx mb_usb_hdmi_top_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.runs/impl_1/mb_usb_hdmi_top_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file mb_usb_hdmi_top_methodology_drc_routed.rpt -pb mb_usb_hdmi_top_methodology_drc_routed.pb -rpx mb_usb_hdmi_top_methodology_drc_routed.rpx
+Command: report_methodology -file mb_usb_hdmi_top_methodology_drc_routed.rpt -pb mb_usb_hdmi_top_methodology_drc_routed.pb -rpx mb_usb_hdmi_top_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/14435/Desktop/ECE385/Lab7_1/Lab7_1/Lab7_1.runs/impl_1/mb_usb_hdmi_top_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 2315.688 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_power -file mb_usb_hdmi_top_power_routed.rpt -pb mb_usb_hdmi_top_power_summary_routed.pb -rpx mb_usb_hdmi_top_power_routed.rpx
+Command: report_power -file mb_usb_hdmi_top_power_routed.rpt -pb mb_usb_hdmi_top_power_summary_routed.pb -rpx mb_usb_hdmi_top_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+305 Infos, 5 Warnings, 1 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 2357.289 ; gain = 41.602
+INFO: [runtcl-4] Executing : report_route_status -file mb_usb_hdmi_top_route_status.rpt -pb mb_usb_hdmi_top_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file mb_usb_hdmi_top_timing_summary_routed.rpt -pb mb_usb_hdmi_top_timing_summary_routed.pb -rpx mb_usb_hdmi_top_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file mb_usb_hdmi_top_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file mb_usb_hdmi_top_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file mb_usb_hdmi_top_bus_skew_routed.rpt -pb mb_usb_hdmi_top_bus_skew_routed.pb -rpx mb_usb_hdmi_top_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 29 15:35:51 2024...

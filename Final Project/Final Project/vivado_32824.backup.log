@@ -1,0 +1,1437 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Apr 24 16:48:02 2024
+# Process ID: 32824
+# Current directory: C:/Users/14435/Desktop/ECE385/Final Project/Final Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34952 C:\Users\14435\Desktop\ECE385\Final Project\Final Project\Final Project.xpr
+# Log file: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/vivado.log
+# Journal file: C:/Users/14435/Desktop/ECE385/Final Project/Final Project\vivado.jou
+# Running On: BOOK-SIO57HHSUH, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 12, Host memory: 16706 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Users/14435/Desktop/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/14435/Desktop/ECE385/Final Project/provided/RD_hdmi_ip2020'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/14435/Desktop/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 1265.773 ; gain = 475.605
+update_compile_order -fileset sources_1
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Wed Apr 24 20:22:56 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Wed Apr 24 20:24:36 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Apr 24 20:27:30 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (C:/Users/14435/Desktop/Vivado/2022.2/data/embeddedsw) loading 2 seconds
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Wed Apr 24 20:42:36 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Wed Apr 24 20:44:05 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Wed Apr 24 20:45:15 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Apr 24 20:49:27 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/kun_new.coe' provided. It will be converted relative to IP Instance files '../../../../../kun_new.coe'
+set_property CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/kun_new.coe} [get_ips blk_mem_gen_0_kun]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/kun_new.coe' provided. It will be converted relative to IP Instance files '../../../../../kun_new.coe'
+generate_target all [get_files  {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_0_kun/blk_mem_gen_0_kun.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0_kun'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0_kun'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0_kun'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0_kun'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0_kun'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_0_kun] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_0_kun
+export_ip_user_files -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_0_kun/blk_mem_gen_0_kun.xci}}] -no_script -sync -force -quiet
+reset_run blk_mem_gen_0_kun_synth_1
+launch_runs blk_mem_gen_0_kun_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_0_kun
+[Wed Apr 24 22:22:30 2024] Launched blk_mem_gen_0_kun_synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/blk_mem_gen_0_kun_synth_1/runme.log
+export_simulation -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_0_kun/blk_mem_gen_0_kun.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/basketball_new.coe' provided. It will be converted relative to IP Instance files '../../../../../basketball_new.coe'
+set_property CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/basketball_new.coe} [get_ips blk_mem_gen_basketball]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/basketball_new.coe' provided. It will be converted relative to IP Instance files '../../../../../basketball_new.coe'
+generate_target all [get_files  {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_basketball/blk_mem_gen_basketball.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_basketball'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_basketball'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_basketball'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_basketball'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_basketball'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_basketball] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_basketball
+export_ip_user_files -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_basketball/blk_mem_gen_basketball.xci}}] -no_script -sync -force -quiet
+reset_run blk_mem_gen_basketball_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/blk_mem_gen_basketball_synth_1
+
+launch_runs blk_mem_gen_basketball_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_basketball
+[Wed Apr 24 22:23:47 2024] Launched blk_mem_gen_basketball_synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/blk_mem_gen_basketball_synth_1/runme.log
+export_simulation -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_basketball/blk_mem_gen_basketball.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/doll_new.coe' provided. It will be converted relative to IP Instance files '../../../../../doll_new.coe'
+set_property CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/doll_new.coe} [get_ips blk_mem_gen_doll]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/doll_new.coe' provided. It will be converted relative to IP Instance files '../../../../../doll_new.coe'
+generate_target all [get_files  {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_doll/blk_mem_gen_doll.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_doll'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_doll'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_doll'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_doll'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_doll'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_doll] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_doll
+export_ip_user_files -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_doll/blk_mem_gen_doll.xci}}] -no_script -sync -force -quiet
+reset_run blk_mem_gen_doll_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/blk_mem_gen_doll_synth_1
+
+launch_runs blk_mem_gen_doll_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_doll
+[Wed Apr 24 22:24:49 2024] Launched blk_mem_gen_doll_synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/blk_mem_gen_doll_synth_1/runme.log
+export_simulation -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_doll/blk_mem_gen_doll.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/waterball_new.coe' provided. It will be converted relative to IP Instance files '../../../../../waterball_new.coe'
+set_property CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/waterball_new.coe} [get_ips blk_mem_gen_waterball]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/waterball_new.coe' provided. It will be converted relative to IP Instance files '../../../../../waterball_new.coe'
+generate_target all [get_files  {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_waterball/blk_mem_gen_waterball.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_waterball'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_waterball'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_waterball'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_waterball'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_waterball'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_waterball] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_waterball
+export_ip_user_files -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_waterball/blk_mem_gen_waterball.xci}}] -no_script -sync -force -quiet
+reset_run blk_mem_gen_waterball_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/blk_mem_gen_waterball_synth_1
+
+launch_runs blk_mem_gen_waterball_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_waterball
+[Wed Apr 24 22:25:39 2024] Launched blk_mem_gen_waterball_synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/blk_mem_gen_waterball_synth_1/runme.log
+export_simulation -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_waterball/blk_mem_gen_waterball.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/destructible_box_new.coe' provided. It will be converted relative to IP Instance files '../../../../../destructible_box_new.coe'
+set_property CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/destructible_box_new.coe} [get_ips blk_mem_gen_destructible_box]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/destructible_box_new.coe' provided. It will be converted relative to IP Instance files '../../../../../destructible_box_new.coe'
+generate_target all [get_files  {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_destructible_box/blk_mem_gen_destructible_box.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_destructible_box'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_destructible_box'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_destructible_box'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_destructible_box'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_destructible_box'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_destructible_box] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_destructible_box
+export_ip_user_files -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_destructible_box/blk_mem_gen_destructible_box.xci}}] -no_script -sync -force -quiet
+reset_run blk_mem_gen_destructible_box_synth_1
+launch_runs blk_mem_gen_destructible_box_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_destructible_box
+[Wed Apr 24 22:32:04 2024] Launched blk_mem_gen_destructible_box_synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/blk_mem_gen_destructible_box_synth_1/runme.log
+export_simulation -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_destructible_box/blk_mem_gen_destructible_box.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Wed Apr 24 22:36:21 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Wed Apr 24 22:37:35 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Apr 24 22:41:15 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/barrier_bear.coe' provided. It will be converted relative to IP Instance files '../../../../../barrier_bear.coe'
+set_property CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/barrier_bear.coe} [get_ips blk_mem_gen_barrier_bear]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/barrier_bear.coe' provided. It will be converted relative to IP Instance files '../../../../../barrier_bear.coe'
+generate_target all [get_files  {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_barrier_bear'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_barrier_bear'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_barrier_bear'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_barrier_bear'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_barrier_bear'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_barrier_bear] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_barrier_bear
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry ea73d1665ecf2af7 to dir: c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_bear_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/ip/2022.2/e/a/ea73d1665ecf2af7/blk_mem_gen_barrier_bear.dcp to c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/ip/2022.2/e/a/ea73d1665ecf2af7/blk_mem_gen_barrier_bear_sim_netlist.v to c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/ip/2022.2/e/a/ea73d1665ecf2af7/blk_mem_gen_barrier_bear_sim_netlist.vhdl to c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/ip/2022.2/e/a/ea73d1665ecf2af7/blk_mem_gen_barrier_bear_stub.v to c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/ip/2022.2/e/a/ea73d1665ecf2af7/blk_mem_gen_barrier_bear_stub.vhdl to c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP blk_mem_gen_barrier_bear, cache-ID = ea73d1665ecf2af7; cache size = 27.900 MB.
+catch { [ delete_ip_run [get_ips -all blk_mem_gen_barrier_bear] ] }
+INFO: [Project 1-386] Moving file 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci' from fileset 'blk_mem_gen_barrier_bear' to fileset 'sources_1'.
+export_ip_user_files -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci}}]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci'
+export_simulation -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+close [ open {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/bomb_address.sv} w ]
+add_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/bomb_address.sv}}
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/basketball_new.coe' provided. It will be converted relative to IP Instance files '../../../../../basketball_new.coe'
+set_property -dict [list \
+  CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/basketball_new.coe} \
+  CONFIG.Write_Depth_A {24576} \
+] [get_ips blk_mem_gen_basketball]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/basketball_new.coe' provided. It will be converted relative to IP Instance files '../../../../../basketball_new.coe'
+generate_target all [get_files  {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_basketball/blk_mem_gen_basketball.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_basketball'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_basketball'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_basketball'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_basketball'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_basketball'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_basketball] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_basketball
+export_ip_user_files -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_basketball/blk_mem_gen_basketball.xci}}] -no_script -sync -force -quiet
+reset_run blk_mem_gen_basketball_synth_1
+launch_runs blk_mem_gen_basketball_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_basketball
+[Wed Apr 24 23:17:47 2024] Launched blk_mem_gen_basketball_synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/blk_mem_gen_basketball_synth_1/runme.log
+export_simulation -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_basketball/blk_mem_gen_basketball.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/waterball_new.coe' provided. It will be converted relative to IP Instance files '../../../../../waterball_new.coe'
+set_property -dict [list \
+  CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/waterball_new.coe} \
+  CONFIG.Write_Depth_A {24576} \
+] [get_ips blk_mem_gen_waterball]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/waterball_new.coe' provided. It will be converted relative to IP Instance files '../../../../../waterball_new.coe'
+generate_target all [get_files  {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_waterball/blk_mem_gen_waterball.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_waterball'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_waterball'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_waterball'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_waterball'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_waterball'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_waterball] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_waterball
+export_ip_user_files -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_waterball/blk_mem_gen_waterball.xci}}] -no_script -sync -force -quiet
+reset_run blk_mem_gen_waterball_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/blk_mem_gen_waterball_synth_1
+
+launch_runs blk_mem_gen_waterball_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_waterball
+[Wed Apr 24 23:18:49 2024] Launched blk_mem_gen_waterball_synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/blk_mem_gen_waterball_synth_1/runme.log
+export_simulation -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_waterball/blk_mem_gen_waterball.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+close [ open {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/check_bomb_wave.sv} w ]
+add_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/check_bomb_wave.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/bomb_wave_address.sv} w ]
+add_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/bomb_wave_address.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci' is already up-to-date
+[Thu Apr 25 01:15:08 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci' is already up-to-date
+[Thu Apr 25 01:16:26 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci' is already up-to-date
+[Thu Apr 25 01:22:15 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci' is already up-to-date
+[Thu Apr 25 01:23:32 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci' is already up-to-date
+[Thu Apr 25 01:26:10 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci' is already up-to-date
+[Thu Apr 25 01:27:24 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.321 . Memory (MB): peak = 1972.023 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 618 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'Final_mb/clk_wiz_1/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'clk_wiz/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2589.004 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2589.004 ; gain = 0.000
+Generating merged BMM file for the design top 'mb_usb_hdmi_top'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_microblaze_0_0/data/mb_bootloop_le.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2589.004 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 246 instances were transformed.
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 143 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 32 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 68 instances
+  SRLC16E => SRL16E: 1 instance 
+
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci' is already up-to-date
+[Thu Apr 25 01:31:48 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci' is already up-to-date
+[Thu Apr 25 15:42:33 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci' is already up-to-date
+[Thu Apr 25 15:45:52 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci' is already up-to-date
+[Thu Apr 25 15:49:45 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci' is already up-to-date
+[Thu Apr 25 15:51:46 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+export_ip_user_files -of_objects  [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_bear_1/blk_mem_gen_barrier_bear.xci}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/barrier_bear.coe}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/14435/Desktop/ECE385/Final Project/barrier_bear.coe}}
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 16:04:14 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 16:05:02 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 16:06:16 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 16:31:11 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 16:32:19 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 25 16:40:03 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 16:47:16 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 16:48:30 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 17:03:43 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/waterball.coe' provided. It will be converted relative to IP Instance files '../../../../../waterball.coe'
+set_property -dict [list \
+  CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/waterball.coe} \
+  CONFIG.Write_Depth_A {6144} \
+] [get_ips blk_mem_gen_waterball]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/waterball.coe' provided. It will be converted relative to IP Instance files '../../../../../waterball.coe'
+generate_target all [get_files  {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_waterball/blk_mem_gen_waterball.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_waterball'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_waterball'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_waterball'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_waterball'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_waterball'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_waterball] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_waterball
+export_ip_user_files -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_waterball/blk_mem_gen_waterball.xci}}] -no_script -sync -force -quiet
+reset_run blk_mem_gen_waterball_synth_1
+launch_runs blk_mem_gen_waterball_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_waterball
+[Thu Apr 25 17:35:58 2024] Launched blk_mem_gen_waterball_synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/blk_mem_gen_waterball_synth_1/runme.log
+export_simulation -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_waterball/blk_mem_gen_waterball.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/basketball.coe' provided. It will be converted relative to IP Instance files '../../../../../basketball.coe'
+set_property -dict [list \
+  CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/basketball.coe} \
+  CONFIG.Write_Depth_A {6144} \
+] [get_ips blk_mem_gen_basketball]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/14435/Desktop/ECE385/Final Project/basketball.coe' provided. It will be converted relative to IP Instance files '../../../../../basketball.coe'
+generate_target all [get_files  {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_basketball/blk_mem_gen_basketball.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_basketball'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_basketball'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_basketball'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_basketball'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_basketball'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_basketball] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_basketball
+export_ip_user_files -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_basketball/blk_mem_gen_basketball.xci}}] -no_script -sync -force -quiet
+reset_run blk_mem_gen_basketball_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/blk_mem_gen_basketball_synth_1
+
+launch_runs blk_mem_gen_basketball_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_basketball
+[Thu Apr 25 17:36:55 2024] Launched blk_mem_gen_basketball_synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/blk_mem_gen_basketball_synth_1/runme.log
+export_simulation -of_objects [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_basketball/blk_mem_gen_basketball.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 17:41:04 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 17:42:34 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 25 17:49:30 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 17:58:15 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 17:59:43 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 25 18:03:50 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 18:26:20 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 18:28:18 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 25 18:32:42 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+close [ open {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/player1.sv} w ]
+add_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/player1.sv}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/player.sv}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/player.sv}}
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 19:07:21 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 19:08:36 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 19:19:13 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 19:20:30 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 19:37:18 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 19:38:43 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 25 19:42:20 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 19:59:29 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 20:05:07 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 25 20:08:07 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 20:11:43 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 20:12:54 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 25 20:17:25 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 20:49:14 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 20:50:36 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 25 20:53:51 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 20:59:38 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 21:01:08 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+[Thu Apr 25 21:01:08 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 25 21:05:02 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 21:39:15 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 21:40:27 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 25 21:44:32 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 21:48:33 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 21:49:46 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 25 21:54:08 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 22:01:56 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 22:03:12 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 25 22:07:25 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 22:12:26 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 22:13:52 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 22:23:35 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 22:25:55 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 25 22:28:47 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 25 22:43:40 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 25 22:44:54 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 25 22:47:48 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Vivado 12-8217] Implementation run is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-run implementation and re-generate bitstream/PDI before doing hardware export.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Fri Apr 26 15:59:05 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri Apr 26 16:01:34 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Apr 26 16:08:33 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Fri Apr 26 16:29:14 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri Apr 26 16:30:50 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Apr 26 16:34:53 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Fri Apr 26 16:59:22 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Fri Apr 26 17:05:06 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri Apr 26 17:06:23 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Apr 26 17:11:16 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+close [ open {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/bomb.sv} w ]
+add_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/bomb.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Fri Apr 26 17:52:53 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri Apr 26 17:54:10 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Apr 26 18:00:00 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/utils_1/imports/synth_1/mb_usb_hdmi_top.dcp with file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/mb_usb_hdmi_top.dcp
+launch_runs synth_1 -jobs 8
+[Fri Apr 26 18:09:42 2024] Launched synth_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri Apr 26 18:13:51 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Apr 26 18:18:03 2024] Launched impl_1...
+Run output will be captured here: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-818] No files matched 'C:/Users/14435/Desktop/ECE385/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project/Final'
+WARNING: [Vivado 12-818] No files matched 'Project.srcs/sources_1/bd/Final_mb/Final_mb.bd'
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa

@@ -1,0 +1,64 @@
+23:48:14 **** Build of configuration Debug for project Lab7_2 ****
+make all 
+'Building file: ../src/hdmi_text_controller.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hdmi_text_controller.o" -IC:/Users/14435/Desktop/ECE385/lab7_2_workspace/lab7_2_toplevel/export/lab7_2_toplevel/sw/lab7_2_toplevel/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/hdmi_text_controller.d" -MT"src/hdmi_text_controller.o" -o "src/hdmi_text_controller.o" "../src/hdmi_text_controller.c"
+In file included from ../src/hdmi_text_controller.h:8,
+                 from ../src/hdmi_text_controller.c:4:
+C:/Users/14435/Desktop/ECE385/lab7_2_workspace/lab7_2_toplevel/export/lab7_2_toplevel/sw/lab7_2_toplevel/standalone_microblaze_0/bspinclude/include/xparameters.h:574:50: warning: initialization of 'volatile struct TEXT_HDMI_STRUCT *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  574 | #define XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR 0x44A00000
+      |                                                  ^~~~~~~~~~
+../src/hdmi_text_controller.h:30:54: note: in expansion of macro 'XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR'
+   30 | static volatile struct TEXT_HDMI_STRUCT* hdmi_ctrl = XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR;
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/hdmi_text_controller.c:101:1: warning: return type defaults to 'int' [-Wimplicit-int]
+  101 | hdmiTestWeek2()
+      | ^~~~~~~~~~~~~
+../src/hdmi_text_controller.c:101:1: warning: conflicting types for 'hdmiTestWeek2'
+In file included from ../src/hdmi_text_controller.c:4:
+../src/hdmi_text_controller.h:119:6: note: previous declaration of 'hdmiTestWeek2' with type 'void()'
+  119 | void hdmiTestWeek2(); //call this for your Week 2 demo
+      |      ^~~~~~~~~~~~~
+../src/hdmi_text_controller.c: In function 'hdmiTestWeek2':
+../src/hdmi_text_controller.c:124:46: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  124 |                 printf ("Row: %d, Checksum: %x, Read-back Checksum: %x\n\r", j, checksum[j], readsum[j]);
+      |                                             ~^                                  ~~~~~~~~~~~
+      |                                              |                                          |
+      |                                              unsigned int                               uint32_t {aka long unsigned int}
+      |                                             %lx
+../src/hdmi_text_controller.c:124:70: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  124 |                 printf ("Row: %d, Checksum: %x, Read-back Checksum: %x\n\r", j, checksum[j], readsum[j]);
+      |                                                                     ~^                       ~~~~~~~~~~
+      |                                                                      |                              |
+      |                                                                      unsigned int                   uint32_t {aka long unsigned int}
+      |                                                                     %lx
+'Finished building: ../src/hdmi_text_controller.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/14435/Desktop/ECE385/lab7_2_workspace/lab7_2_toplevel/export/lab7_2_toplevel/sw/lab7_2_toplevel/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:57:5: warning: implicit declaration of function 'hdmiTestWeek2' [-Wimplicit-function-declaration]
+   57 |     hdmiTestWeek2();
+      |     ^~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/14435/Desktop/ECE385/lab7_2_workspace/lab7_2_toplevel/export/lab7_2_toplevel/sw/lab7_2_toplevel/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Lab7_2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/14435/Desktop/ECE385/lab7_2_workspace/lab7_2_toplevel/export/lab7_2_toplevel/sw/lab7_2_toplevel/standalone_microblaze_0/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Lab7_2.elf"  ./src/hdmi_text_controller.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Lab7_2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Lab7_2.elf  |tee "Lab7_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85380	   2096	   3172	  90648	  16218	Lab7_2.elf
+'Finished building: Lab7_2.elf.size'
+' '
+
+23:48:16 Build Finished (took 1s.902ms)
+

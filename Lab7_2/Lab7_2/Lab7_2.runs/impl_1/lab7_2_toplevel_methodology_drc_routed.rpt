@@ -1,0 +1,301 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr  4 23:44:12 2024
+| Host         : BOOK-SIO57HHSUH running 64-bit major release  (build 9200)
+| Command      : report_methodology -file lab7_2_toplevel_methodology_drc_routed.rpt -pb lab7_2_toplevel_methodology_drc_routed.pb -rpx lab7_2_toplevel_methodology_drc_routed.rpx
+| Design       : lab7_2_toplevel
+| Device       : xc7s50csga324-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 48
++-----------+------------------+--------------------------------------------------------+------------+
+| Rule      | Severity         | Description                                            | Violations |
++-----------+------------------+--------------------------------------------------------+------------+
+| TIMING-4  | Critical Warning | Invalid primary clock redefinition on a clock tree     | 1          |
+| TIMING-6  | Critical Warning | No common primary clock between related clocks         | 2          |
+| TIMING-7  | Critical Warning | No common node between related clocks                  | 2          |
+| TIMING-27 | Critical Warning | Invalid primary clock on hierarchical pin              | 1          |
+| LUTAR-1   | Warning          | LUT drives async reset alert                           | 4          |
+| TIMING-9  | Warning          | Unknown CDC Logic                                      | 1          |
+| TIMING-18 | Warning          | Missing input or output delay                          | 3          |
+| TIMING-20 | Warning          | Non-clocked latch                                      | 32         |
+| XDCC-7    | Warning          | Scoped Clock constraint overwritten on the same source | 1          |
+| LATCH-1   | Advisory         | Existing latches in the design                         | 1          |
++-----------+------------------+--------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-4#1 Critical Warning
+Invalid primary clock redefinition on a clock tree  
+Invalid clock redefinition on a clock tree. The primary clock Lab7_2/hdmi_text_controller_0/inst/clk_wiz/inst/clk_in1 is defined downstream of clock clk_out1_Lab7_2_clk_wiz_1_0_1 and overrides its insertion delay and/or waveform definition
+Related violations: <none>
+
+TIMING-6#1 Critical Warning
+No common primary clock between related clocks  
+The clocks clk_out1_Lab7_2_clk_wiz_1_0_1 and clk_out1_clk_wiz_0_1 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_Lab7_2_clk_wiz_1_0_1] -to [get_clocks clk_out1_clk_wiz_0_1]
+Related violations: <none>
+
+TIMING-6#2 Critical Warning
+No common primary clock between related clocks  
+The clocks clk_out1_clk_wiz_0_1 and clk_out1_Lab7_2_clk_wiz_1_0_1 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_clk_wiz_0_1] -to [get_clocks clk_out1_Lab7_2_clk_wiz_1_0_1]
+Related violations: <none>
+
+TIMING-7#1 Critical Warning
+No common node between related clocks  
+The clocks clk_out1_Lab7_2_clk_wiz_1_0_1 and clk_out1_clk_wiz_0_1 are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_Lab7_2_clk_wiz_1_0_1] -to [get_clocks clk_out1_clk_wiz_0_1]
+Related violations: <none>
+
+TIMING-7#2 Critical Warning
+No common node between related clocks  
+The clocks clk_out1_clk_wiz_0_1 and clk_out1_Lab7_2_clk_wiz_1_0_1 are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_clk_wiz_0_1] -to [get_clocks clk_out1_Lab7_2_clk_wiz_1_0_1]
+Related violations: <none>
+
+TIMING-27#1 Critical Warning
+Invalid primary clock on hierarchical pin  
+A primary clock Lab7_2/hdmi_text_controller_0/inst/clk_wiz/inst/clk_in1 is created on an inappropriate internal pin Lab7_2/hdmi_text_controller_0/inst/clk_wiz/inst/clk_in1. It is not recommended to create a primary clock on a hierarchical pin when its driver pin has a fanout connected to multiple clock pins
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/oserdes_m_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encg/dout_reg[9]/CLR,
+Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/cnt_reg[1]/CLR,
+Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/cnt_reg[2]/CLR,
+Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/cnt_reg[3]/CLR,
+Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/cnt_reg[4]/CLR,
+Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[0]/CLR,
+Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[1]/CLR,
+Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[2]/CLR,
+Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[3]/CLR,
+Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[4]/CLR,
+Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[5]/CLR,
+Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[6]/CLR,
+Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[7]/CLR,
+Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[8]/CLR,
+Lab7_2/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/dout_reg[9]/CLR
+ (the first 15 of 42 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell Lab7_2/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/sel_n_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) Lab7_2/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/sel_n_reg/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell Lab7_2/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Implement_Debug_Logic.Master_Core.Debug_Area/Serial_Dbg_Intf.force_stop_cmd_rst_i_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) Lab7_2/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Implement_Debug_Logic.Master_Core.Debug_Area/Serial_Dbg_Intf.force_stop_TClk_reg/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#4 Warning
+LUT drives async reset alert  
+LUT cell Lab7_2/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Implement_Debug_Logic.Master_Core.Debug_Area/Serial_Dbg_Intf.normal_stop_cmd_rst_i_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) Lab7_2/microblaze_0/U0/MicroBlaze_Core_I/Area.Core/Implement_Debug_Logic.Master_Core.Debug_Area/Serial_Dbg_Intf.normal_stop_TClk_reg/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-9#1 Warning
+Unknown CDC Logic  
+One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage. Please consider using XPM_CDC to avoid Critical severities
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on reset_rtl_0 relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on uart_rtl_0_rxd relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on uart_rtl_0_txd relative to clock(s) clk_100
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[0] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[10] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[11] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[12] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[13] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[14] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[15] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[16] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[17] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[18] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[19] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[1] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[20] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[21] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[22] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[23] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[24] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[25] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[26] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[27] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[28] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[29] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[2] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[30] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[31] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[3] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[4] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[5] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[6] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[7] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[8] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[9] cannot be properly analyzed as its control pin Lab7_2/hdmi_text_controller_0/inst/hdmi_text_controller_v1_0_AXI_inst/color_regout_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+XDCC-7#1 Warning
+Scoped Clock constraint overwritten on the same source  
+A new clock constraint create_clock overrides a previous scoped clock constraint defined on the same source. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 10.000 -name clk_100 -waveform {0.000 5.000} [get_ports Clk] (Source: C:/Users/14435/Desktop/ECE385/Lab7_2/Lab7_2/Lab7_2.srcs/constrs_1/imports/lab7_2_provided_sp24/mb_usb_hdmi_top.xdc (Line: 1))
+Previous: create_clock -period 10.000 [get_ports Clk] (Source: c:/Users/14435/Desktop/ECE385/Lab7_2/Lab7_2/Lab7_2.gen/sources_1/bd/Lab7_2/ip/Lab7_2_clk_wiz_1_0/Lab7_2_clk_wiz_1_0.xdc (Line: 56))
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 32 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+Related violations: <none>
+
+

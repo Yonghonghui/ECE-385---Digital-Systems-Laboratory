@@ -1,0 +1,554 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Apr 26 18:36:52 2024
+# Process ID: 3268
+# Current directory: C:/Users/14435/Desktop/ECE385/Final Project/Final Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8564 C:\Users\14435\Desktop\ECE385\Final Project\Final Project\Final Project.xpr
+# Log file: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/vivado.log
+# Journal file: C:/Users/14435/Desktop/ECE385/Final Project/Final Project\vivado.jou
+# Running On: BOOK-SIO57HHSUH, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 12, Host memory: 16706 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.xpr}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/new_clk.sv} w ]
+add_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/new_clk.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+open_project {C:/Users/14435/Desktop/ECE385/Lab 6/Lab_6_2/Lab_6_2.xpr}
+update_compile_order -fileset sources_1
+current_project {Final Project}
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+current_project Lab_6_2
+close_project
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+close [ open {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/player2.sv} w ]
+add_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/player2.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+make_wrapper -files [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/bd/Final_mb/Final_mb.bd}}] -top
+open_bd_design {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/bd/Final_mb/Final_mb.bd}
+close_bd_design [get_bd_designs Final_mb]
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+file mkdir C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sim_1/new
+file mkdir C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sim_1/new
+file mkdir C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sim_1/new
+file mkdir C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sim_1/new
+file mkdir C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sim_1/new
+file mkdir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sim_1/new}
+close [ open {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sim_1/new/colormapper_testbench.sv} w ]
+add_files -fileset sim_1 {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sim_1/new/colormapper_testbench.sv}}
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+close [ open {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/explode_juege.sv} w ]
+add_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/explode_juege.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+open_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+open_project {C:/Users/14435/Desktop/ECE385/Lab 6/Lab_6_2/Lab_6_2.xpr}
+update_compile_order -fileset sources_1
+close_project
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_stone/blk_mem_gen_barrier_stone.xci}}] -no_script -reset -force -quiet
+remove_files  -fileset blk_mem_gen_barrier_stone {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_stone/blk_mem_gen_barrier_stone.xci}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_wood/blk_mem_gen_barrier_wood.xci}}] -no_script -reset -force -quiet
+remove_files  -fileset blk_mem_gen_barrier_wood {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_wood/blk_mem_gen_barrier_wood.xci}}
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_kun_bombed
+set_property -dict [list \
+  CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/kun_bombed.coe} \
+  CONFIG.Component_Name {blk_mem_gen_kun_bombed} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.Memory_Type {Single_Port_ROM} \
+  CONFIG.Write_Depth_A {3072} \
+  CONFIG.Write_Width_A {24} \
+] [get_ips blk_mem_gen_kun_bombed]
+generate_target {instantiation_template} [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_kun_bombed/blk_mem_gen_kun_bombed.xci}}]
+generate_target all [get_files  {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_kun_bombed/blk_mem_gen_kun_bombed.xci}}]
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_kun_bombed] }
+export_ip_user_files -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_kun_bombed/blk_mem_gen_kun_bombed.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_kun_bombed/blk_mem_gen_kun_bombed.xci}}]
+launch_runs blk_mem_gen_kun_bombed_synth_1 -jobs 8
+wait_on_run blk_mem_gen_kun_bombed_synth_1
+export_simulation -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_kun_bombed/blk_mem_gen_kun_bombed.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_doll_bombed
+set_property -dict [list \
+  CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/doll_bombed.coe} \
+  CONFIG.Component_Name {blk_mem_gen_doll_bombed} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.Memory_Type {Single_Port_ROM} \
+  CONFIG.Write_Depth_A {3072} \
+  CONFIG.Write_Width_A {24} \
+] [get_ips blk_mem_gen_doll_bombed]
+generate_target {instantiation_template} [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_doll_bombed/blk_mem_gen_doll_bombed.xci}}]
+generate_target all [get_files  {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_doll_bombed/blk_mem_gen_doll_bombed.xci}}]
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_doll_bombed] }
+export_ip_user_files -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_doll_bombed/blk_mem_gen_doll_bombed.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_doll_bombed/blk_mem_gen_doll_bombed.xci}}]
+launch_runs blk_mem_gen_doll_bombed_synth_1 -jobs 8
+wait_on_run blk_mem_gen_doll_bombed_synth_1
+export_simulation -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_doll_bombed/blk_mem_gen_doll_bombed.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_0
+set_property -dict [list \
+  CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/single_basketball.coe} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.Memory_Type {Single_Port_ROM} \
+  CONFIG.Write_Depth_A {3072} \
+  CONFIG.Write_Width_A {24} \
+] [get_ips blk_mem_gen_0]
+generate_target {instantiation_template} [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_0_2/blk_mem_gen_0.xci}}]
+generate_target all [get_files  {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_0_2/blk_mem_gen_0.xci}}]
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_0] }
+export_ip_user_files -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_0_2/blk_mem_gen_0.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_0_2/blk_mem_gen_0.xci}}]
+launch_runs blk_mem_gen_0_synth_1 -jobs 8
+wait_on_run blk_mem_gen_0_synth_1
+export_simulation -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_0_2/blk_mem_gen_0.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_ip_user_files -of_objects  [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_0_2/blk_mem_gen_0.xci}}] -no_script -reset -force -quiet
+remove_files  -fileset blk_mem_gen_0 {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_0_2/blk_mem_gen_0.xci}}
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_single_basketball
+set_property -dict [list \
+  CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/single_basketball.coe} \
+  CONFIG.Component_Name {blk_mem_gen_single_basketball} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.Memory_Type {Single_Port_ROM} \
+  CONFIG.Write_Depth_A {3072} \
+  CONFIG.Write_Width_A {24} \
+] [get_ips blk_mem_gen_single_basketball]
+generate_target {instantiation_template} [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_basketball/blk_mem_gen_single_basketball.xci}}]
+generate_target all [get_files  {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_basketball/blk_mem_gen_single_basketball.xci}}]
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_single_basketball] }
+export_ip_user_files -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_basketball/blk_mem_gen_single_basketball.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_basketball/blk_mem_gen_single_basketball.xci}}]
+launch_runs blk_mem_gen_single_basketball_synth_1 -jobs 8
+wait_on_run blk_mem_gen_single_basketball_synth_1
+export_simulation -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_basketball/blk_mem_gen_single_basketball.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_single_basketball_bombed
+set_property -dict [list \
+  CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/single_basketball_bombed.coe} \
+  CONFIG.Component_Name {blk_mem_gen_single_basketball_bombed} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.Memory_Type {Single_Port_ROM} \
+  CONFIG.Write_Depth_A {3072} \
+  CONFIG.Write_Width_A {24} \
+] [get_ips blk_mem_gen_single_basketball_bombed]
+generate_target {instantiation_template} [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_basketball_bombed/blk_mem_gen_single_basketball_bombed.xci}}]
+generate_target all [get_files  {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_basketball_bombed/blk_mem_gen_single_basketball_bombed.xci}}]
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_single_basketball_bombed] }
+export_ip_user_files -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_basketball_bombed/blk_mem_gen_single_basketball_bombed.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_basketball_bombed/blk_mem_gen_single_basketball_bombed.xci}}]
+launch_runs blk_mem_gen_single_basketball_bombed_synth_1 -jobs 8
+wait_on_run blk_mem_gen_single_basketball_bombed_synth_1
+export_simulation -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_basketball_bombed/blk_mem_gen_single_basketball_bombed.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_single_waterball
+set_property -dict [list \
+  CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/single_waterball.coe} \
+  CONFIG.Component_Name {blk_mem_gen_single_waterball} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.Memory_Type {Single_Port_ROM} \
+  CONFIG.Write_Depth_A {3072} \
+  CONFIG.Write_Width_A {24} \
+] [get_ips blk_mem_gen_single_waterball]
+generate_target {instantiation_template} [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_waterball/blk_mem_gen_single_waterball.xci}}]
+generate_target all [get_files  {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_waterball/blk_mem_gen_single_waterball.xci}}]
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_single_waterball] }
+export_ip_user_files -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_waterball/blk_mem_gen_single_waterball.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_waterball/blk_mem_gen_single_waterball.xci}}]
+launch_runs blk_mem_gen_single_waterball_synth_1 -jobs 8
+wait_on_run blk_mem_gen_single_waterball_synth_1
+export_simulation -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_waterball/blk_mem_gen_single_waterball.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_single_waterball_bombed
+set_property -dict [list \
+  CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/single_waterball_bombed.coe} \
+  CONFIG.Component_Name {blk_mem_gen_single_waterball_bombed} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.Memory_Type {Single_Port_ROM} \
+  CONFIG.Write_Depth_A {3072} \
+  CONFIG.Write_Width_A {24} \
+] [get_ips blk_mem_gen_single_waterball_bombed]
+generate_target {instantiation_template} [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_waterball_bombed/blk_mem_gen_single_waterball_bombed.xci}}]
+generate_target all [get_files  {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_waterball_bombed/blk_mem_gen_single_waterball_bombed.xci}}]
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_single_waterball_bombed] }
+export_ip_user_files -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_waterball_bombed/blk_mem_gen_single_waterball_bombed.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_waterball_bombed/blk_mem_gen_single_waterball_bombed.xci}}]
+launch_runs blk_mem_gen_single_waterball_bombed_synth_1 -jobs 8
+wait_on_run blk_mem_gen_single_waterball_bombed_synth_1
+export_simulation -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_single_waterball_bombed/blk_mem_gen_single_waterball_bombed.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_design
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+close [ open {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/Life_counter.sv} w ]
+add_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/Life_counter.sv}}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+close [ open {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/count_player_bombed.sv} w ]
+add_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/count_player_bombed.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_GA
+set_property -dict [list \
+  CONFIG.Coe_File {C:/Users/14435/Desktop/ECE385/Final Project/GA.coe} \
+  CONFIG.Component_Name {blk_mem_gen_GA} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.Memory_Type {Single_Port_ROM} \
+  CONFIG.Write_Depth_A {3072} \
+  CONFIG.Write_Width_A {24} \
+] [get_ips blk_mem_gen_GA]
+generate_target {instantiation_template} [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_GA/blk_mem_gen_GA.xci}}]
+generate_target all [get_files  {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_GA/blk_mem_gen_GA.xci}}]
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_GA] }
+export_ip_user_files -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_GA/blk_mem_gen_GA.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_GA/blk_mem_gen_GA.xci}}]
+launch_runs blk_mem_gen_GA_synth_1 -jobs 8
+wait_on_run blk_mem_gen_GA_synth_1
+export_simulation -of_objects [get_files {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_GA/blk_mem_gen_GA.xci}}] -directory {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files} -ipstatic_source_dir {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/modelsim} {questa=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/questa} {riviera=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/riviera} {activehdl=C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet

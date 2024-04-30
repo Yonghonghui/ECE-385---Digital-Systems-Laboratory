@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Apr 19 15:59:01 2024
+# Process ID: 450040
+# Current directory: C:/Users/14435/Desktop/ECE385/Lab 6/Lab_6_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent445384 C:\Users\14435\Desktop\ECE385\Lab 6\Lab_6_2\Lab_6_2.xpr
+# Log file: C:/Users/14435/Desktop/ECE385/Lab 6/Lab_6_2/vivado.log
+# Journal file: C:/Users/14435/Desktop/ECE385/Lab 6/Lab_6_2\vivado.jou
+# Running On: BOOK-SIO57HHSUH, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 12, Host memory: 16706 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/14435/Desktop/ECE385/Lab 6/Lab_6_2/Lab_6_2.xpr}
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/14435/Desktop/ECE385/Lab 6/Lab_6_2/Lab_6_2.srcs/sources_1/bd/lab6_2/lab6_2.bd}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file C:/Users/14435/Desktop/mb_usb_hdmi_top.xsa
+write_hw_platform -fixed -include_bit -force -file C:/Users/14435/Desktop//mb_usb_hdmi_top.xsa
+write_hw_platform -fixed -include_bit -force -file C:/Users/14435/Desktop/mb_usb_hdmi_top.xsa
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Lab 6/Lab_6_2/mb_usb_hdmi_top.xsa}
+open_bd_design {C:/Users/14435/Desktop/ECE385/Lab 6/Lab_6_2/Lab_6_2.srcs/sources_1/bd/lab6_2/lab6_2.bd}
+close_bd_design [get_bd_designs lab6_2]
+open_bd_design {C:/Users/14435/Desktop/ECE385/Lab 6/Lab_6_2/Lab_6_2.srcs/sources_1/bd/lab6_2/lab6_2.bd}
+make_wrapper -files [get_files {{C:/Users/14435/Desktop/ECE385/Lab 6/Lab_6_2/Lab_6_2.srcs/sources_1/bd/lab6_2/lab6_2.bd}}] -top
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Lab 6/Lab_6_2/mb_usb_hdmi_top.xsa}
+write_hw_platform -fixed -include_bit -force -file {C:/Users/14435/Desktop/ECE385/Lab 6/Lab_6_2/mb_usb_hdmi_top.xsa}

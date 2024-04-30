@@ -1,0 +1,31 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/14435/Desktop/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot bench_behav xil_defaultlib.bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c_in' [C:/Users/14435/Desktop/ECE385/Lab3/design_source/select_adder.sv:91]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c_in' [C:/Users/14435/Desktop/ECE385/Lab3/design_source/select_adder.sv:92]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c_in' [C:/Users/14435/Desktop/ECE385/Lab3/design_source/select_adder.sv:96]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c_in' [C:/Users/14435/Desktop/ECE385/Lab3/design_source/select_adder.sv:97]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c_in' [C:/Users/14435/Desktop/ECE385/Lab3/design_source/select_adder.sv:101]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'c_in' [C:/Users/14435/Desktop/ECE385/Lab3/design_source/select_adder.sv:102]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_adder_toplevel_sv_14042270...
+Compiling module xil_defaultlib.negedge_detector
+Compiling module xil_defaultlib.load_reg(DATA_WIDTH=17)
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.Adder4
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.select_adder
+Compiling module xil_defaultlib.nibble_to_hex
+Compiling module xil_defaultlib.hex_driver_default
+Compiling module xil_defaultlib.sync_debounce
+Compiling module xil_defaultlib.load_reg(DATA_WIDTH=16)
+Compiling module xil_defaultlib.adder_toplevel_default
+Compiling module xil_defaultlib.bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot bench_behav

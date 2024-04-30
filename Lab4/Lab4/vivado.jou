@@ -1,0 +1,307 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Feb 16 05:12:18 2024
+# Process ID: 25436
+# Current directory: C:/Users/14435/Desktop/ECE385/Lab4/Lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21980 C:\Users\14435\Desktop\ECE385\Lab4\Lab4\Lab4.xpr
+# Log file: C:/Users/14435/Desktop/ECE385/Lab4/Lab4/vivado.log
+# Journal file: C:/Users/14435/Desktop/ECE385/Lab4/Lab4\vivado.jou
+# Running On: BOOK-SIO57HHSUH, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 12, Host memory: 16706 MB
+#-----------------------------------------------------------sstart_guiopen_project C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.xpr
+update_compile_order -fileset sources_1
+
+launch_simulation
+source testbench.tcl
+launch_simulation -mode post-synthesis -type functional
+source testbench.tcl
+run all
+close_sim
+close_sim
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+launch_simulation
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+launch_simulation
+source testbench.tcl
+add_bp {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sim_1/new/testbench.sv} 58
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+launch_simulation
+source testbench.tcl
+remove_bps -file {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.srcs/sim_1/new/testbench.sv} -line 58
+run all
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.runs/impl_1/Multiplier_toplevel.bit} [get_hw_devices xc7s50_0]
+current_hw_device [get_hw_devices xc7s50_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s50_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.runs/impl_1/Multiplier_toplevel.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+close_hw_manager
+save_wave_config {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/testbench_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/14435/Desktop/ECE385/Lab4/Lab4/testbench_behav.wcfg
+set_property xsim.view C:/Users/14435/Desktop/ECE385/Lab4/Lab4/testbench_behav.wcfg [get_filesets sim_1]
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+launch_simulation
+open_wave_config C:/Users/14435/Desktop/ECE385/Lab4/Lab4/testbench_behav.wcfg
+source testbench.tcl
+open_project C:/Users/14435/Desktop/ECE385/Lab2.2/Processor8bit/Processor8bit.xpr
+update_compile_order -fileset sources_1
+current_project Lab4
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.runs/impl_1/Multiplier_toplevel.bit} [get_hw_devices xc7s50_0]
+current_hw_device [get_hw_devices xc7s50_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s50_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.runs/impl_1/Multiplier_toplevel.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.runs/impl_1/Multiplier_toplevel.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.runs/impl_1/Multiplier_toplevel.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.runs/impl_1/Multiplier_toplevel.bit} [get_hw_devices xc7s50_0]
+current_hw_device [get_hw_devices xc7s50_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s50_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.runs/impl_1/Multiplier_toplevel.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+close_hw_manager
+close_sim
+launch_simulation
+open_wave_config C:/Users/14435/Desktop/ECE385/Lab4/Lab4/testbench_behav.wcfg
+source testbench.tcl
+close_sim
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+launch_simulation
+open_wave_config C:/Users/14435/Desktop/ECE385/Lab4/Lab4/testbench_behav.wcfg
+source testbench.tcl
+open_hw_manager
+current_project Processor8bit
+close_project
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7s50_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s50_0] 0]
+close_hw_manager
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.runs/impl_1/Multiplier_toplevel.bit} [get_hw_devices xc7s50_0]
+current_hw_device [get_hw_devices xc7s50_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s50_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.runs/impl_1/Multiplier_toplevel.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+close_hw_manager
+close_sim
+launch_simulation
+open_wave_config C:/Users/14435/Desktop/ECE385/Lab4/Lab4/testbench_behav.wcfg
+source testbench.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/14435/Desktop/ECE385/Lab4/Lab4/testbench_behav.wcfg
+source testbench.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/14435/Desktop/ECE385/Lab4/Lab4/testbench_behav.wcfg
+source testbench.tcl
+reset_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.runs/impl_1/Multiplier_toplevel.bit} [get_hw_devices xc7s50_0]
+current_hw_device [get_hw_devices xc7s50_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s50_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {C:/Users/14435/Desktop/ECE385/Lab4/Lab4/Lab4.runs/impl_1/Multiplier_toplevel.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+close_hw_manager
+close_design
+open_project C:/Users/14435/Desktop/ECE385/Lab3/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+open_run impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+current_project Lab4
+current_project project_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+refresh_design
+current_project Lab4
+open_run synth_1 -name synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+current_project project_1
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top adder_toplevel [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+close_design
+close_design
+open_run impl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top bench [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+close_project
+open_project C:/Users/14435/Desktop/ECE385/Lab3/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top adder_toplevel [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_design
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+close_design
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+close_design
+launch_simulation
+source bench.tcl
+current_wave_config {Untitled 6}
+add_wave {{/bench/adder0/s}} 
+current_wave_config {Untitled 6}
+add_wave {{/bench/adder0/run_s}} 
+current_wave_config {Untitled 6}
+log_wave {/bench/adder0/reset_s} 
+current_wave_config {Untitled 6}
+add_wave {{/bench/adder0/reset_s}} 
+current_wave_config {Untitled 6}
+log_wave {/bench/adder0/sw_s} 
+current_wave_config {Untitled 6}
+add_wave {{/bench/adder0/sw_s}} 
+current_wave_config {Untitled 6}
+add_wave {{/bench/adder0/out}} 
+relaunch_sim
+close_sim
+close_project
+close_sim

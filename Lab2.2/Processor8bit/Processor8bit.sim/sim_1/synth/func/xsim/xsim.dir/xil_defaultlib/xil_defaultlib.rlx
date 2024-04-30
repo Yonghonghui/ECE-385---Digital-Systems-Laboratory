@@ -1,0 +1,6 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/14435/Desktop/ECE385/Lab2.2/Processor8bit/Processor8bit.sim/sim_1/synth/func/xsim/testbench8_func_synth.v,1708059136,verilog,,,,HexDriver;Processor;control;dbg_hub_CV;glbl;reg_8;reg_8_16;register_unit;sync_debounce;sync_debounce_0;sync_debounce_1;sync_debounce_10;sync_debounce_11;sync_debounce_12;sync_debounce_13;sync_debounce_14;sync_debounce_15;sync_debounce_2;sync_debounce_3;sync_debounce_4;sync_debounce_5;sync_debounce_6;sync_debounce_7;sync_debounce_8;sync_debounce_9;u_ila_0_CV,,uvm,,,,,,
+C:/Users/14435/Desktop/ECE385/Lab2.2/Processor8bit/Processor8bit.srcs/sim_1/imports/sim_sources/testbench_8.sv,1706469236,systemVerilog,,,,testbench8,,uvm,,,,,,

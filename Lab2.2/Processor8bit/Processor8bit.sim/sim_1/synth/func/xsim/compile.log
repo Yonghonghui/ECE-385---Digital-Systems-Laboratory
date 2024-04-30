@@ -1,0 +1,27 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/14435/Desktop/ECE385/Lab2.2/Processor8bit/Processor8bit.sim/sim_1/synth/func/xsim/testbench8_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dbg_hub_CV
+INFO: [VRFC 10-311] analyzing module u_ila_0_CV
+INFO: [VRFC 10-311] analyzing module HexDriver
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-311] analyzing module reg_8
+INFO: [VRFC 10-311] analyzing module reg_8_16
+INFO: [VRFC 10-311] analyzing module register_unit
+INFO: [VRFC 10-311] analyzing module sync_debounce
+INFO: [VRFC 10-311] analyzing module sync_debounce_0
+INFO: [VRFC 10-311] analyzing module sync_debounce_1
+INFO: [VRFC 10-311] analyzing module sync_debounce_10
+INFO: [VRFC 10-311] analyzing module sync_debounce_11
+INFO: [VRFC 10-311] analyzing module sync_debounce_12
+INFO: [VRFC 10-311] analyzing module sync_debounce_13
+INFO: [VRFC 10-311] analyzing module sync_debounce_14
+INFO: [VRFC 10-311] analyzing module sync_debounce_15
+INFO: [VRFC 10-311] analyzing module sync_debounce_2
+INFO: [VRFC 10-311] analyzing module sync_debounce_3
+INFO: [VRFC 10-311] analyzing module sync_debounce_4
+INFO: [VRFC 10-311] analyzing module sync_debounce_5
+INFO: [VRFC 10-311] analyzing module sync_debounce_6
+INFO: [VRFC 10-311] analyzing module sync_debounce_7
+INFO: [VRFC 10-311] analyzing module sync_debounce_8
+INFO: [VRFC 10-311] analyzing module sync_debounce_9
+INFO: [VRFC 10-311] analyzing module glbl

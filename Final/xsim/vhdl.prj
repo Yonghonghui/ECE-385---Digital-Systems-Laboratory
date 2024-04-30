@@ -1,0 +1,89 @@
+vhdl xpm  \
+"C:/Users/14435/Desktop/Vivado/2022.2/data/ip/xpm/xpm_VCOMP.vhd" \
+
+vhdl microblaze_v11_0_10  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/1f7b/hdl/microblaze_v11_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_microblaze_0_0/sim/Final_mb_microblaze_0_0.vhd" \
+
+vhdl lmb_v10_v3_0_12  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/cd1d/hdl/lmb_v10_v3_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_dlmb_v10_0/sim/Final_mb_dlmb_v10_0.vhd" \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_ilmb_v10_0/sim/Final_mb_ilmb_v10_0.vhd" \
+
+vhdl lmb_bram_if_cntlr_v4_0_21  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_dlmb_bram_if_cntlr_0/sim/Final_mb_dlmb_bram_if_cntlr_0.vhd" \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_ilmb_bram_if_cntlr_0/sim/Final_mb_ilmb_bram_if_cntlr_0.vhd" \
+
+vhdl fifo_generator_v13_2_7  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/83df/hdl/fifo_generator_v13_2_rfs.vhd" \
+
+vhdl axi_lite_ipif_v3_0_4  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd" \
+
+vhdl axi_intc_v4_1_17  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/802b/hdl/axi_intc_v4_1_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_microblaze_0_axi_intc_0/sim/Final_mb_microblaze_0_axi_intc_0.vhd" \
+
+vhdl mdm_v3_2_23  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/b8f4/hdl/mdm_v3_2_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_mdm_1_0/sim/Final_mb_mdm_1_0.vhd" \
+
+vhdl lib_cdc_v1_0_2  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd" \
+
+vhdl proc_sys_reset_v5_0_13  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_rst_clk_wiz_1_100M_0/sim/Final_mb_rst_clk_wiz_1_100M_0.vhd" \
+
+vhdl lib_pkg_v1_0_2  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/0513/hdl/lib_pkg_v1_0_rfs.vhd" \
+
+vhdl lib_srl_fifo_v1_0_2  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/51ce/hdl/lib_srl_fifo_v1_0_rfs.vhd" \
+
+vhdl axi_uartlite_v2_0_31  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/67a1/hdl/axi_uartlite_v2_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_uartlite_0_0/sim/Final_mb_axi_uartlite_0_0.vhd" \
+
+vhdl axi_timer_v2_0_29  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/22b2/hdl/axi_timer_v2_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_timer_0_0/sim/Final_mb_axi_timer_0_0.vhd" \
+
+vhdl interrupt_control_v3_1_4  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd" \
+
+vhdl axi_gpio_v2_0_29  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/6219/hdl/axi_gpio_v2_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_0/sim/Final_mb_axi_gpio_0_0.vhd" \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_1/sim/Final_mb_axi_gpio_0_1.vhd" \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_2/sim/Final_mb_axi_gpio_0_2.vhd" \
+
+vhdl lib_fifo_v1_0_16  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/6c82/hdl/lib_fifo_v1_0_rfs.vhd" \
+
+vhdl axi_quad_spi_v3_2_26  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_quad_spi_0_0/sim/Final_mb_axi_quad_spi_0_0.vhd" \
+
+nosort

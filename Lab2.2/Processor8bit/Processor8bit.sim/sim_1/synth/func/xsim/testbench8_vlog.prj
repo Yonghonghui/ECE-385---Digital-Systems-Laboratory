@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"testbench8_func_synth.v" \
+
+sv xil_defaultlib  \
+"../../../../../Processor8bit.srcs/sim_1/imports/sim_sources/testbench_8.sv" \
+
+# Do not sort compile order
+nosort

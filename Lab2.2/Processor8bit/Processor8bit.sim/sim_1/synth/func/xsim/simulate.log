@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+1st cycle A ERROR: Aval is 00
+1st cycle B ERROR: Bval is 00
+2nd cycle A ERROR: Aval is 00
+2nd cycle B ERROR: Bval is 00
+3rd cycle A ERROR: Aval is 00
+3rd cycle B ERROR: Bval is 00
+$finish called at time : 1620 ns : File "C:/Users/14435/Desktop/ECE385/Lab2.2/Processor8bit/Processor8bit.srcs/sim_1/imports/sim_sources/testbench_8.sv" Line 127
