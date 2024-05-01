@@ -40,20 +40,20 @@ module Life_counter(
             player1_dead<=0;
             player2_dead<=0;
         end
-        else if ((player1_bombed_ctr)&& (Life_player1>0)) begin
+        else if ((player1_bombed_ctr==1)&& (Life_player1>0)&& (player2_bombed_ctr==0)&& (Life_player2>0)) begin
             Life_player1<=Life_player1-1;
         end
-        else if ((player2_bombed_ctr)&& (Life_player2>0)) begin
+        else if ((player1_bombed_ctr==0)&& (Life_player1>0)&& (player2_bombed_ctr==1)&& (Life_player2>0)) begin
             Life_player2<=Life_player2-1;
         end
-        else if ((player1_bombed_ctr)&& (Life_player1>0) && (player2_bombed_ctr)&& (Life_player2>0)) begin
+        else if ((player1_bombed_ctr==1)&& (Life_player1>0) && (player2_bombed_ctr==1)&& (Life_player2>0)) begin
             Life_player1<=Life_player1-1;
             Life_player2<=Life_player2-1;
         end
-        else if (Life_player1==0) begin
+        else if ((Life_player1==0) && (Life_player2>0)) begin
             player1_dead<=1;
         end
-        else if (Life_player2==0) begin
+        else if ((Life_player1>0) && (Life_player2==0)) begin
             player2_dead<=1;
         end
         else if ((Life_player2==0) && (Life_player1==0))begin

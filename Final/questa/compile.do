@@ -77,8 +77,13 @@ vlog -work xil_defaultlib  -incr -mfcu  "+incdir+../../Final Project/Final Proje
 "../../Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_single_basketball/sim/blk_mem_gen_single_basketball.v" \
 "../../Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_kun_bombed/sim/blk_mem_gen_kun_bombed.v" \
 "../../Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_0_kun/sim/blk_mem_gen_0_kun.v" \
+"../../Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_stone_1/sim/blk_mem_gen_barrier_stone.v" \
 "../../Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_tree/sim/blk_mem_gen_barrier_tree.v" \
 "../../Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_house/sim/blk_mem_gen_barrier_house.v" \
+"../../Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_ER/sim/blk_mem_gen_ER.v" \
+"../../Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_OV/sim/blk_mem_gen_OV.v" \
+"../../Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_ME/sim/blk_mem_gen_ME.v" \
+"../../Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_GA/sim/blk_mem_gen_GA.v" \
 "../../Final Project/Final Project/Final Project.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v" \
 "../../Final Project/Final Project/Final Project.gen/sources_1/ip/hdmi_tx_0/hdl/serdes_10_to_1.v" \
 "../../Final Project/Final Project/Final Project.gen/sources_1/ip/hdmi_tx_0/hdl/srldelay.v" \
@@ -220,6 +225,7 @@ vlog -work xil_defaultlib  -incr -mfcu  -sv "+incdir+../../Final Project/Final P
 "../../Final Project/Final Project/Final Project.srcs/sources_1/new/Life_counter.sv" \
 "../../Final Project/Final Project/Final Project.srcs/sources_1/imports/provided/design_source/VGA_controller.sv" \
 "../../Final Project/Final Project/Final Project.srcs/sources_1/new/barrier_addr.sv" \
+"../../Final Project/Final Project/Final Project.srcs/sources_1/new/beep_music.sv" \
 "../../Final Project/Final Project/Final Project.srcs/sources_1/new/bomb.sv" \
 "../../Final Project/Final Project/Final Project.srcs/sources_1/new/bomb_address.sv" \
 "../../Final Project/Final Project/Final Project.srcs/sources_1/new/bomb_wave_address.sv" \

@@ -207,6 +207,100 @@ module house_addr(
 endmodule
 
 
+//------------ stone address -------------//
+module stone_addr(
+    input logic [9:0] stone1_x,stone1_y,
+    input logic [9:0] stone2_x,stone2_y,
+    input logic [9:0] stone3_x,stone3_y,
+    input logic [9:0] stone4_x,stone4_y,
+    input logic [9:0] stone5_x,stone5_y,
+    input logic [9:0] stone6_x,stone6_y,
+    
+    input logic [9:0]stone_height,stone_width,
+    input logic [9:0]draw_x,draw_y,
+    input logic show_stone,
+    output logic [12:0] addra_stone   //blk_mem_gen_barrier_stone
+
+    
+    );
+    logic [9:0]spritex,spritey; // 2D array in BRAM
+    logic [12:0] spritey_64;// 1D array 
+    always_comb
+    begin
+    // 
+    if (((draw_x-stone1_x)>=0) && ((draw_x-stone1_x)<stone_width) && ((draw_y-stone1_y)>=0) && ((draw_y-stone1_y)<stone_height)) begin
+        spritex = draw_x - stone1_x;
+        spritey = draw_y - stone1_y;
+        spritey_64 = spritey << 6; // +64
+        if (show_stone)begin
+            addra_stone=spritex + spritey_64;
+        end
+        else begin
+            addra_stone=0;
+        end
+    end
+    else if (((draw_x-stone2_x)>=0) && ((draw_x-stone2_x)<stone_width) && ((draw_y-stone2_y)>=0) && ((draw_y-stone2_y)<stone_height)) begin
+        spritex = draw_x - stone2_x;
+        spritey = draw_y - stone2_y;
+        spritey_64 = spritey << 6; // +64
+        if (show_stone)begin
+            addra_stone=spritex + spritey_64;
+        end
+        else begin
+            addra_stone=0;
+        end
+    end
+    else if (((draw_x-stone3_x)>=0) && ((draw_x-stone3_x)<stone_width) && ((draw_y-stone3_y)>=0) && ((draw_y-stone3_y)<stone_height)) begin
+        spritex = draw_x - stone3_x;
+        spritey = draw_y - stone3_y;
+        spritey_64 = spritey << 6; // +64
+        if (show_stone)begin
+            addra_stone=spritex + spritey_64;
+        end
+        else begin
+            addra_stone=0;
+        end
+    end
+    else if (((draw_x-stone4_x)>=0) && ((draw_x-stone4_x)<stone_width) && ((draw_y-stone4_y)>=0) && ((draw_y-stone4_y)<stone_height)) begin
+        spritex = draw_x - stone4_x;
+        spritey = draw_y - stone4_y;
+        spritey_64 = spritey << 6; // +64
+        if (show_stone)begin
+            addra_stone=spritex + spritey_64;
+        end
+        else begin
+            addra_stone=0;
+        end
+    end
+    else if (((draw_x-stone5_x)>=0) && ((draw_x-stone5_x)<stone_width) && ((draw_y-stone5_y)>=0) && ((draw_y-stone5_y)<stone_height)) begin
+        spritex = draw_x - stone5_x;
+        spritey = draw_y - stone5_y;
+        spritey_64 = spritey << 6; // +64
+        if (show_stone)begin
+            addra_stone=spritex + spritey_64;
+        end
+        else begin
+            addra_stone=0;
+        end
+    end
+    else if (((draw_x-stone6_x)>=0) && ((draw_x-stone6_x)<stone_width) && ((draw_y-stone6_y)>=0) && ((draw_y-stone6_y)<stone_height)) begin
+        spritex = draw_x - stone6_x;
+        spritey = draw_y - stone6_y;
+        spritey_64 = spritey << 6; // +64
+        if (show_stone)begin
+            addra_stone=spritex + spritey_64;
+        end
+        else begin
+            addra_stone=0;
+        end
+    end
+    else begin 
+        addra_stone=0;
+    end
+    end
+endmodule
+
+
 
 module gameover_addr(
     input logic [9:0] x,y,

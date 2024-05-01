@@ -1,4 +1,4 @@
-23:01:53 **** Build of configuration Debug for project mb_usb ****
+23:25:09 **** Build of configuration Debug for project mb_usb ****
 make all 
 'Building file: ../src/lw_usb/HID.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -83,5 +83,5 @@ mb-size mb_usb.elf  |tee "mb_usb.elf.size"
 'Finished building: mb_usb.elf.size'
 ' '
 
-23:01:57 Build Finished (took 3s.680ms)
+23:25:13 Build Finished (took 4s.68ms)
 

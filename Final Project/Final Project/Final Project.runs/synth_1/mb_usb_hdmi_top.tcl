@@ -120,6 +120,7 @@ read_verilog -library xil_defaultlib -sv {
   {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/imports/provided/design_source/VGA_controller.sv}
   {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/barrier_addr.sv}
   {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/beep_music.sv}
+  {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/beep_music_2.sv}
   {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/bomb.sv}
   {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/bomb_address.sv}
   {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/bomb_wave_address.sv}
@@ -134,6 +135,9 @@ read_verilog -library xil_defaultlib -sv {
   {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/new/player_address.sv}
   {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/imports/provided/design_source/mb_usb_hdmi_top.sv}
 }
+read_ip -quiet {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/ip/blk_mem_gen_barrier_stone_1/blk_mem_gen_barrier_stone.xci}}
+set_property used_in_implementation false [get_files -all {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_stone_1/blk_mem_gen_barrier_stone_ooc.xdc}}]
+
 add_files {{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/sources_1/bd/Final_mb/Final_mb.bd}}
 set_property used_in_implementation false [get_files -all {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_microblaze_0_0/Final_mb_microblaze_0_0.xdc}}]
 set_property used_in_implementation false [get_files -all {{c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_microblaze_0_0/Final_mb_microblaze_0_0_ooc_debug.xdc}}]

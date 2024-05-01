@@ -50,12 +50,12 @@ module count_player_bombed(
             || ((bomb1_x  > 0 ) && (player1_x   == (bomb1_x -64)) && (player1_y == bomb1_y )) 
             || ((bomb1_x <576) && (player1_x == (bomb1_x +64)) && (player1_y == bomb1_y) )
             || ((bomb1_y  > 0) && (player1_x  == bomb1_x ) && (player1_y  == (bomb1_y -48)))
-            || ((bomb1_y < 432) && (player1_x == bomb1_x ) && (player1_y== (bomb1_y +48 ))) )==1) 
+            || ((bomb1_y < 432) && (player1_x == bomb1_x ) && (player1_y== (bomb1_y +48 ))) )==1) // player1 stands in the range of bomb1
             && ((((player2_x  == bomb1_x ) && (player2_y == bomb1_y)) 
                  || ((bomb1_x  > 0 ) && (player2_x   == (bomb1_x -64)) && (player2_y == bomb1_y ))
                  || ((bomb1_x <576) && (player2_x == (bomb1_x +64)) && (player2_y == bomb1_y))
                  || ((bomb1_y  > 0) && (player2_x  == bomb1_x ) && (player2_y  == (bomb1_y -48)))
-                 || ((bomb1_y < 432) && (player2_x == bomb1_x ) && (player2_y== (bomb1_y +48 )) ))==0)
+                 || ((bomb1_y < 432) && (player2_x == bomb1_x ) && (player2_y== (bomb1_y +48 )) ))==0)// player2 not stands in the range of bomb1
                
             )begin
                 player1_bombed_ctr = 1;
@@ -66,12 +66,12 @@ module count_player_bombed(
             || ((bomb1_x  > 0 ) && (player1_x   == (bomb1_x -64)) && (player1_y == bomb1_y )) 
             || ((bomb1_x <576) && (player1_x == (bomb1_x +64)) && (player1_y == bomb1_y) )
             || ((bomb1_y  > 0) && (player1_x  == bomb1_x ) && (player1_y  == (bomb1_y -48)))
-            || ((bomb1_y < 432) && (player1_x == bomb1_x ) && (player1_y== (bomb1_y +48 ))) )==0) 
+            || ((bomb1_y < 432) && (player1_x == bomb1_x ) && (player1_y== (bomb1_y +48 ))) )==0) // player1 not stands in the range of bomb1
             && ((((player2_x  == bomb1_x ) && (player2_y == bomb1_y)) 
                  || ((bomb1_x  > 0 ) && (player2_x   == (bomb1_x -64)) && (player2_y == bomb1_y ))
                  || ((bomb1_x <576) && (player2_x == (bomb1_x +64)) && (player2_y == bomb1_y))
                  || ((bomb1_y  > 0) && (player2_x  == bomb1_x ) && (player2_y  == (bomb1_y -48)))
-                 || ((bomb1_y < 432) && (player2_x == bomb1_x ) && (player2_y== (bomb1_y +48 )) ))==1)
+                 || ((bomb1_y < 432) && (player2_x == bomb1_x ) && (player2_y== (bomb1_y +48 )) ))==1)// player2 stands in the range of bomb1
                
             )begin
                 player1_bombed_ctr = 0;
@@ -81,12 +81,12 @@ module count_player_bombed(
             || ((bomb1_x  > 0 ) && (player1_x   == (bomb1_x -64)) && (player1_y == bomb1_y )) 
             || ((bomb1_x <576) && (player1_x == (bomb1_x +64)) && (player1_y == bomb1_y) )
             || ((bomb1_y  > 0) && (player1_x  == bomb1_x ) && (player1_y  == (bomb1_y -48)))
-            || ((bomb1_y < 432) && (player1_x == bomb1_x ) && (player1_y== (bomb1_y +48 ))) )==1) 
+            || ((bomb1_y < 432) && (player1_x == bomb1_x ) && (player1_y== (bomb1_y +48 ))) )==1) // player1 stands in the range of bomb1
             && ((((player2_x  == bomb1_x ) && (player2_y == bomb1_y)) 
                  || ((bomb1_x  > 0 ) && (player2_x   == (bomb1_x -64)) && (player2_y == bomb1_y ))
                  || ((bomb1_x <576) && (player2_x == (bomb1_x +64)) && (player2_y == bomb1_y))
                  || ((bomb1_y  > 0) && (player2_x  == bomb1_x ) && (player2_y  == (bomb1_y -48)))
-                 || ((bomb1_y < 432) && (player2_x == bomb1_x ) && (player2_y== (bomb1_y +48 )) ))==1)
+                 || ((bomb1_y < 432) && (player2_x == bomb1_x ) && (player2_y== (bomb1_y +48 )) ))==1)// player2 stands in the range of bomb1
                
             )begin
                 player1_bombed_ctr = 1;

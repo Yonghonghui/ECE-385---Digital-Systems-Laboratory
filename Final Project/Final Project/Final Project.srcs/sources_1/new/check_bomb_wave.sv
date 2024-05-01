@@ -21,30 +21,30 @@
 
 
 module check_bomb_wave(
-    input logic show_bomb_explosion,
+    input logic is_bomb_exploding,
     input logic [9:0] draw_x,draw_y,bomb_x,bomb_y,
     output logic show_bomb_up,show_bomb_down,show_bomb_left,show_bomb_right
     );
     always_comb begin
-        if ((draw_x>=bomb_x) && (draw_x<bomb_x+64)&& (bomb_y>draw_y)&& (bomb_y<draw_y+48) && show_bomb_explosion) begin
+        if ((draw_x>=bomb_x) && (draw_x<bomb_x+64)&& (bomb_y>draw_y)&& (bomb_y<draw_y+48) && is_bomb_exploding) begin
             show_bomb_up=1;
             show_bomb_down=0;
             show_bomb_left=0;
             show_bomb_right=0;
         end
-        else if ((draw_x>=bomb_x) && (draw_x<bomb_x+64)&& (draw_y>=bomb_y+48)&& (draw_y<bomb_y+96)&& show_bomb_explosion) begin
+        else if ((draw_x>=bomb_x) && (draw_x<bomb_x+64)&& (draw_y>=bomb_y+48)&& (draw_y<bomb_y+96)&& is_bomb_exploding) begin
             show_bomb_up=0;
             show_bomb_down=1;
             show_bomb_left=0;
             show_bomb_right=0;
         end
-        else if ((draw_x>=bomb_x+64) && (draw_x<bomb_x+128)&& (draw_y>=bomb_y)&& (draw_y<bomb_y+48)&& show_bomb_explosion) begin
+        else if ((draw_x>=bomb_x+64) && (draw_x<bomb_x+128)&& (draw_y>=bomb_y)&& (draw_y<bomb_y+48)&& is_bomb_exploding) begin
             show_bomb_up=0;
             show_bomb_down=0;
             show_bomb_left=0;
             show_bomb_right=1;
         end
-        else if ((bomb_x>draw_x) && (bomb_x<=64+draw_x)&& (draw_y>=bomb_y)&& (draw_y<bomb_y+48)&& show_bomb_explosion) begin
+        else if ((bomb_x>draw_x) && (bomb_x<=64+draw_x)&& (draw_y>=bomb_y)&& (draw_y<bomb_y+48)&& is_bomb_exploding) begin
             show_bomb_up=0;
             show_bomb_down=0;
             show_bomb_left=1;

@@ -273,3 +273,21 @@ platform generate
 platform config -updatehw {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
 platform clean
 platform generate
+platform config -updatehw {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/14435/Desktop/ECE385/Final Project/Final Project/mb_usb_hdmi_top.xsa}
+platform clean
+platform generate

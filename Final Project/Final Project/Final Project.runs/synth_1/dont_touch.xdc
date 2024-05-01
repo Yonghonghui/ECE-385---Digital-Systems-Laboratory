@@ -3,6 +3,9 @@
 
 # XDC: imports/pin_assignment/mb_usb_hdmi_top.xdc
 
+# IP: ip/blk_mem_gen_barrier_stone_1/blk_mem_gen_barrier_stone.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==blk_mem_gen_barrier_stone || ORIG_REF_NAME==blk_mem_gen_barrier_stone} -quiet] -quiet
+
 # Block Designs: bd/Final_mb/Final_mb.bd
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Final_mb || ORIG_REF_NAME==Final_mb} -quiet] -quiet
 

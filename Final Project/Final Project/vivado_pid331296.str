@@ -3066,3 +3066,33 @@ setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "show_bomb_explo"); // d.
 selectCodeEditor("colormapper_test.sv", 1260, 802); // ac
 selectCodeEditor("colormapper_test.sv", 1260, 802, false, false, false, false, true); // ac - Double Click
 typeControlKey((HResource) null, "colormapper_test.sv", 'c'); // ac
+// Elapsed time: 80 seconds
+selectCodeEditor("colormapper_test.sv", 886, 565); // ac
+selectCodeEditor("colormapper_test.sv", 886, 565, false, false, false, false, true); // ac - Double Click
+// Elapsed time: 33 seconds
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // f: TRUE
+// Elapsed time: 20 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, Final_mb, Final_mb_dlmb_bram_if_cntlr_0_synth_1, [Synth 8-7129] Port A[2] in module pselect_mask is either unconnected or has no load. ]", 70, false); // u.d
+// Elapsed time: 14 seconds
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // f: FALSE
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // B
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design, [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.. ]", 5, false); // u.d
+selectCodeEditor("colormapper_test.sv", 750, 604); // ac
+selectCodeEditor("colormapper_test.sv", 521, 629); // ac
+selectCodeEditor("colormapper_test.sv", 524, 678); // ac
+selectCodeEditor("colormapper_test.sv", 769, 641); // ac
+selectCodeEditor("colormapper_test.sv", 1005, 646); // ac
+selectCodeEditor("colormapper_test.sv", 1005, 646, false, false, false, false, true); // ac - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("colormapper_test.sv", 831, 722); // ac
+selectCodeEditor("colormapper_test.sv", 833, 722, false, false, false, false, true); // ac - Double Click
+selectCodeEditor("colormapper_test.sv", 774, 721); // ac
+selectCodeEditor("colormapper_test.sv", 1790, 707); // ac
+// Elapsed time: 17 seconds
+selectCodeEditor("colormapper_test.sv", 673, 668); // ac
+// Elapsed time: 274 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bomb_wave_address.sv", 3); // o
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "colormapper_test.sv", 1); // o
+// WARNING: HEventQueue.dispatchEvent() is taking  1625 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,293 MB. GUI used memory: 203 MB. Current time: 4/30/24, 6:00:56 PM CDT

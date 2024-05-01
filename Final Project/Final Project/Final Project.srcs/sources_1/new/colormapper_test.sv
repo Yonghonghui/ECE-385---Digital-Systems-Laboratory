@@ -89,7 +89,7 @@ module colormapper_test( input  logic [9:0]draw_x,draw_y, // location of the las
 
     logic [9:0] house1_x,house1_y,house2_x,house2_y,house3_x,house3_y,house4_x,house4_y,house5_x,house5_y,house6_x,house6_y;
     
-//    logic [9:0] stone1_x,stone1_y,stone2_x,stone2_y,stone3_x,stone3_y;          
+    logic [9:0] stone1_x,stone1_y,stone2_x,stone2_y,stone3_x,stone3_y,stone4_x,stone4_y,stone5_x,stone5_y,stone6_x,stone6_y;       
     
     // GAME OVER 
     logic [9:0]  GA_x,GA_y,ME_x,ME_y,OV_x,OV_y,ER_x,ER_y;
@@ -109,6 +109,20 @@ module colormapper_test( input  logic [9:0]draw_x,draw_y, // location of the las
     ER_y = 288   ;
     
     show_gameover= player1_dead || player2_dead;
+    
+    
+    stone1_x = 0;      // 0, 3
+    stone1_y = 144;
+    stone2_x = 64;      //1, 5
+    stone2_y = 240;
+    stone3_x = 128;      //2,8
+    stone3_y = 384;
+    stone4_x = 256;     //4, 1
+    stone4_y = 48;
+    stone5_x = 384;     //6, 8
+    stone5_y = 384;
+    stone6_x = 512;     //8,5
+    stone6_y = 240;
     
     
     tree1_x = 128;      // 2, 6
@@ -155,8 +169,8 @@ module colormapper_test( input  logic [9:0]draw_x,draw_y, // location of the las
 //    parameter [9:0] bear_width =128;
     parameter [9:0] tree_height= 48;
     parameter [9:0] tree_width = 64;
-//    parameter [9:0] stone_height = 48;
-//    parameter [9:0] stone_width=64;
+    parameter [9:0] stone_height = 48;
+    parameter [9:0] stone_width=64;
     parameter [9:0] house_height = 96;
     parameter [9:0] house_width=64;
 //    parameter [9:0] wood_height = 48;
@@ -166,7 +180,7 @@ module colormapper_test( input  logic [9:0]draw_x,draw_y, // location of the las
     // RGB of each pixel //
     logic [23:0] player1_rgb, player2_rgb,player1_bombed_rgb,player2_bombed_rgb,bomb1_rgb,bomb2_rgb,exploding_bomb1_rgb, exploding_bomb2_rgb;
     
-    logic [23:0] tree_rgb,house_rgb;
+    logic [23:0] tree_rgb,house_rgb,stone_rgb;
 //    logic [23:0] box_rgb;
     
     logic [23:0] bomb1_wave_rgb;
@@ -192,12 +206,13 @@ module colormapper_test( input  logic [9:0]draw_x,draw_y, // location of the las
 
     logic [12:0] addra_house; // blk_mem_gen_barrier_house
     logic [11:0] addra_tree; //blk_mem_gen_barrier_tree
-
+    logic [11:0] addra_stone; //blk_mem_gen_barrier_stone
 //    logic [12:0] addra_box; //blk_mem_gen_destructible_box
     
     // Enable Logic //
     logic show_player1, show_player1_bombed, show_player2, show_player2_bombed;
-    logic show_bomb1,show_bomb1_explosion,show_bomb2,show_bomb2_explosion;
+    logic show_bomb1,show_bomb2;
+//    logic show_bomb1_explosion,show_bomb2_explosion;
     
     // Show the waves on the 4 directions around the exploding bomb
     logic show_bomb1_up,show_bomb1_down,show_bomb1_left,show_bomb1_right;
@@ -206,7 +221,7 @@ module colormapper_test( input  logic [9:0]draw_x,draw_y, // location of the las
     logic show_box;
     logic show_money;
     logic show_bear,show_house,show_wood,show_tree,show_stone;   
-   
+    
     
     always_comb begin
         show_bear=1;
@@ -249,8 +264,8 @@ module colormapper_test( input  logic [9:0]draw_x,draw_y, // location of the las
 
 //   Check waves of exploding bomb
 
-    check_bomb_wave check_bomb_wave1(.show_bomb_explosion(show_bomb1_explosion),.draw_x(draw_x),.draw_y(draw_y),.bomb_x(bomb1_x),.bomb_y(bomb1_y),.show_bomb_up(show_bomb1_up),.show_bomb_down(show_bomb1_down),.show_bomb_left(show_bomb1_left),.show_bomb_right(show_bomb1_right));
-    check_bomb_wave check_bomb_wave2(.show_bomb_explosion(show_bomb2_explosion),.draw_x(draw_x),.draw_y(draw_y),.bomb_x(bomb2_x),.bomb_y(bomb2_y),.show_bomb_up(show_bomb2_up),.show_bomb_down(show_bomb2_down),.show_bomb_left(show_bomb2_left),.show_bomb_right(show_bomb2_right));
+    check_bomb_wave check_bomb_wave1(.is_bomb_exploding(is_bomb1_exploding),.draw_x(draw_x),.draw_y(draw_y),.bomb_x(bomb1_x),.bomb_y(bomb1_y),.show_bomb_up(show_bomb1_up),.show_bomb_down(show_bomb1_down),.show_bomb_left(show_bomb1_left),.show_bomb_right(show_bomb1_right));
+    check_bomb_wave check_bomb_wave2(.is_bomb_exploding(is_bomb2_exploding),.draw_x(draw_x),.draw_y(draw_y),.bomb_x(bomb2_x),.bomb_y(bomb2_y),.show_bomb_up(show_bomb2_up),.show_bomb_down(show_bomb2_down),.show_bomb_left(show_bomb2_left),.show_bomb_right(show_bomb2_right));
 
    
     
@@ -284,6 +299,12 @@ module colormapper_test( input  logic [9:0]draw_x,draw_y, // location of the las
             red= house_rgb[23:16];
             green =house_rgb[15:8];
             blue =house_rgb[7:0];
+        end
+        // draw barrier stone //
+        else if((player1_dead==0)&&(player2_dead==0)&&(((draw_x-stone1_x)>=0) && ((draw_x-stone1_x)<stone_width) && ((draw_y-stone1_y)>=0) && ((draw_y-stone1_y)<stone_height)) || (((draw_x-stone2_x)>=0) && ((draw_x-stone2_x)<stone_width) && ((draw_y-stone2_y)>=0) && ((draw_y-stone2_y)<stone_height)) || (((draw_x-stone3_x)>=0) && ((draw_x-stone3_x)<stone_width) && ((draw_y-stone3_y)>=0) && ((draw_y-stone3_y)<stone_height)) ||(((draw_x-stone4_x)>=0) && ((draw_x-stone4_x)<stone_width) && ((draw_y-stone4_y)>=0) && ((draw_y-stone4_y)<stone_height)) || (((draw_x-stone5_x)>=0) && ((draw_x-stone5_x)<stone_width) && ((draw_y-stone5_y)>=0) && ((draw_y-stone5_y)<stone_height)) || (((draw_x-stone6_x)>=0) && ((draw_x-stone6_x)<stone_width) && ((draw_y-stone6_y)>=0) && ((draw_y-stone6_y)<stone_height)))  begin
+            red= stone_rgb[23:16];
+            green =stone_rgb[15:8];
+            blue =stone_rgb[7:0];
         end
        /////////// Show player //////////
         else if((player1_dead==0)&& show_player1 && (show_player1_bombed==0) && (player1_rgb != 24'hffffff) )//display kun and not red background
@@ -398,49 +419,7 @@ module colormapper_test( input  logic [9:0]draw_x,draw_y, // location of the las
     end
     end 
     
-//            if((hit_counter == 1) && (in1))begin
-//                red   = 8'hFF;
-//                green = 8'h00;
-//                blue  = 8'h00;
-//            end
-//            else if((hit_counter == 2) && (in1 || in2))begin
-//                red   = 8'hFF;
-//                green = 8'h00;
-//                blue  = 8'h00;
-//            end
-//            else if((hit_counter == 3) && (in1 || in2 || in3))begin
-//                red   = 8'hFF;
-//                green = 8'h00;
-//                blue  = 8'h00;
-//            end
-//            else if((hit_counter == 4) && (in1 || in2 || in3 || in4))begin
-//                red   = 8'hFF;
-//                green = 8'h00;
-//                blue  = 8'h00;
-//            end
-//            else if((hit_counter == 5) && (in1 || in2 || in3 || in4 || in5))begin
-//                red   = 8'hFF;
-//                green = 8'h00;
-//                blue  = 8'h00;
-//            end
-            
-//            else begin
-//                red   = 8'hff;
-//                green = 8'hff;
-//                blue  = 8'hff;
-//             end
 
-//--------------------------------------------------------------------------------------------------------
-   /////////  score counter ///// 
-//    score_board socre_counter( .left(10'd20), .upper(10'd12),
-//                               .draw_x(draw_x),.draw_y(draw_y),
-//                               .score1(score1), .score2(score2),
-//                               .show_black(show_blacknum),
-//                               .Clk(Clk)
-//                               );                                         
-   
-   
-//    check_game_start gamestart(10'd290,10'd240,draw_x,draw_y,in_game_start,addra_game_start);
 
 //-----------------------------------------------------------------------------------------------------------
     // calculate the corresponding addresses in the BRAM //
@@ -449,7 +428,8 @@ module colormapper_test( input  logic [9:0]draw_x,draw_y, // location of the las
     
     house_addr house (house1_x,house1_y,house2_x,house2_y,house3_x,house3_y,house4_x,house4_y,house5_x,house5_y,house6_x,house6_y,house_height,house_width,draw_x,draw_y,show_house,addra_house);   //blk_mem_gen_barrier_house
     
-    
+    stone_addr stone (stone1_x,stone1_y,stone2_x,stone2_y,stone3_x,stone3_y,stone4_x,stone4_y,stone5_x,stone5_y,stone6_x,stone6_y,stone_height,stone_width,draw_x,draw_y,show_stone,addra_stone);   //blk_mem_gen_barrier_stone
+
     // Game Over address
     gameover_addr GA_address(
     .x(GA_x),.y(GA_y),
@@ -506,7 +486,7 @@ module colormapper_test( input  logic [9:0]draw_x,draw_y, // location of the las
 
     blk_mem_gen_barrier_house   (.addra(addra_house), .clka(Clk),.douta(house_rgb),.ena(show_house));
     blk_mem_gen_barrier_tree   (.addra(addra_tree), .clka(Clk),.douta(tree_rgb),.ena(show_tree));
-
+    blk_mem_gen_barrier_stone   (.addra(addra_stone), .clka(Clk),.douta(stone_rgb),.ena(show_stone));
     
 //    blk_mem_gen_destructible_box  (.addra(addra_box), .clka(Clk),.douta(box_rgb),.ena(show_box));
     

@@ -101,7 +101,8 @@ module mb_usb_hdmi_top(
     logic player2_dead;
     logic bomb1_exp_ctr;
     logic bomb2_exp_ctr;
-                   
+    
+    logic show_wave_1,show_wave_2,show_bomb1_explosion,show_bomb2_explosion;  
                          
 //                         logic[3:0] score1, score2,
                    
@@ -273,6 +274,14 @@ module mb_usb_hdmi_top(
     barrier[3][5] = 1;
     barrier[4][9] = 1;
     barrier[6][0] = 1;
+    
+     //stone
+    barrier[0][3] = 1;
+    barrier[1][5] = 1;
+    barrier[2][8] = 1;
+    barrier[4][1] = 1;
+    barrier[6][8] = 1;
+    barrier[8][5] = 1;
  
     //house  1x2
     barrier[1][0] = 1;
@@ -438,7 +447,7 @@ module mb_usb_hdmi_top(
     
     
     
-    logic show_wave_1,show_wave_2,show_bomb1_explosion,show_bomb2_explosion;    
+  
     //Color Mapper Module   
     colormapper_test color_instance( draw_x,draw_y, // location of the laser display
                          Clk,
@@ -496,13 +505,22 @@ module mb_usb_hdmi_top(
     );
     
     //PWM-----------------------------------------------
-    logic music_en;
-    assign music_en = 1;
+//    logic music_en;
+//    assign music_en = 1;
     beep_music  audio(
     .clk(Clk),
     .reset(reset_ah),
-    .enable(music_en),
-    .leftsound(leftsound),
+    .enable((player1_dead || player2_dead)),
+    .leftsound(leftsound)
+//    .rightsound(rightsound)
+    );
+    
+    beep_music_2  audio_1(
+    .clk(Clk),
+    .reset(reset_ah),
+//    .enable(((player1_dead ==0) && (player2_dead==0))),
+    .enable(!(player1_dead || player2_dead)),
+//    .leftsound(leftsound),
     .rightsound(rightsound)
     );
 

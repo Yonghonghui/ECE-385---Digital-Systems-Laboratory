@@ -1,6 +1,6 @@
-23:01:58 **** Build of configuration Debug for project mb_usb_system ****
+23:25:14 **** Build of configuration Debug for project mb_usb_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
 
-23:01:58 Build Finished (took 210ms)
+23:25:14 Build Finished (took 225ms)
 

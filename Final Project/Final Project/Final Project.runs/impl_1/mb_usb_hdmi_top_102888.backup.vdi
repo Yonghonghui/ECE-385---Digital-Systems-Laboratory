@@ -1,0 +1,1519 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Apr 30 20:12:53 2024
+# Process ID: 102888
+# Current directory: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1
+# Command line: vivado.exe -log mb_usb_hdmi_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mb_usb_hdmi_top.tcl -notrace
+# Log file: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/mb_usb_hdmi_top.vdi
+# Journal file: C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1\vivado.jou
+# Running On: BOOK-SIO57HHSUH, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 12, Host memory: 16706 MB
+#-----------------------------------------------------------
+source mb_usb_hdmi_top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/14435/Desktop/ECE385/Final Project/provided/RD_hdmi_ip2020'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/14435/Desktop/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/{C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.cache/ip} 
+Command: link_design -top mb_usb_hdmi_top -part xc7s50csga324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'clk_wiz'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0.dcp' for cell 'vga_to_hdmi'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_uartlite_0_0/Final_mb_axi_uartlite_0_0.dcp' for cell 'Final_mb/axi_uartlite_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_clk_wiz_1_0/Final_mb_clk_wiz_1_0.dcp' for cell 'Final_mb/clk_wiz_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_1/Final_mb_axi_gpio_0_1.dcp' for cell 'Final_mb/gpio_usb_int'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_2/Final_mb_axi_gpio_0_2.dcp' for cell 'Final_mb/gpio_usb_keycode'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_0/Final_mb_axi_gpio_0_0.dcp' for cell 'Final_mb/gpio_usb_rst'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_mdm_1_0/Final_mb_mdm_1_0.dcp' for cell 'Final_mb/mdm_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_microblaze_0_0/Final_mb_microblaze_0_0.dcp' for cell 'Final_mb/microblaze_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_microblaze_0_axi_intc_0/Final_mb_microblaze_0_axi_intc_0.dcp' for cell 'Final_mb/microblaze_0_axi_intc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_rst_clk_wiz_1_100M_0/Final_mb_rst_clk_wiz_1_100M_0.dcp' for cell 'Final_mb/rst_clk_wiz_1_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_quad_spi_0_0/Final_mb_axi_quad_spi_0_0.dcp' for cell 'Final_mb/spi_usb'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_timer_0_0/Final_mb_axi_timer_0_0.dcp' for cell 'Final_mb/timer_usb_axi'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_xbar_0/Final_mb_xbar_0.dcp' for cell 'Final_mb/microblaze_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_dlmb_bram_if_cntlr_0/Final_mb_dlmb_bram_if_cntlr_0.dcp' for cell 'Final_mb/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_dlmb_v10_0/Final_mb_dlmb_v10_0.dcp' for cell 'Final_mb/microblaze_0_local_memory/dlmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_ilmb_bram_if_cntlr_0/Final_mb_ilmb_bram_if_cntlr_0.dcp' for cell 'Final_mb/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_ilmb_v10_0/Final_mb_ilmb_v10_0.dcp' for cell 'Final_mb/microblaze_0_local_memory/ilmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_lmb_bram_0/Final_mb_lmb_bram_0.dcp' for cell 'Final_mb/microblaze_0_local_memory/lmb_bram'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_GA/blk_mem_gen_GA.dcp' for cell 'color_instance/nolabel_line442'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_ME/blk_mem_gen_ME.dcp' for cell 'color_instance/nolabel_line443'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_OV/blk_mem_gen_OV.dcp' for cell 'color_instance/nolabel_line444'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_ER/blk_mem_gen_ER.dcp' for cell 'color_instance/nolabel_line445'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_house/blk_mem_gen_barrier_house.dcp' for cell 'color_instance/nolabel_line466'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_barrier_tree/blk_mem_gen_barrier_tree.dcp' for cell 'color_instance/nolabel_line467'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_0_kun/blk_mem_gen_0_kun.dcp' for cell 'color_instance/nolabel_line472'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_kun_bombed/blk_mem_gen_kun_bombed.dcp' for cell 'color_instance/nolabel_line473'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_single_basketball/blk_mem_gen_single_basketball.dcp' for cell 'color_instance/nolabel_line478'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_single_basketball_bombed/blk_mem_gen_single_basketball_bombed.dcp' for cell 'color_instance/nolabel_line479'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_doll/blk_mem_gen_doll.dcp' for cell 'color_instance/nolabel_line487'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_doll_bombed/blk_mem_gen_doll_bombed.dcp' for cell 'color_instance/nolabel_line488'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_single_waterball/blk_mem_gen_single_waterball.dcp' for cell 'color_instance/nolabel_line492'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/blk_mem_gen_single_waterball_bombed/blk_mem_gen_single_waterball_bombed.dcp' for cell 'color_instance/nolabel_line493'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.370 . Memory (MB): peak = 936.824 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 906 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-35] Removing redundant IBUF, Final_mb/clk_wiz_1/inst/clkin1_ibufg, from the path connected to top-level port: Clk 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-35] Removing redundant IBUF, clk_wiz/inst/clkin1_ibufg, from the path connected to top-level port: Clk 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'Final_mb/clk_wiz_1/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'clk_wiz/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_microblaze_0_0/Final_mb_microblaze_0_0.xdc] for cell 'Final_mb/microblaze_0/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_microblaze_0_0/Final_mb_microblaze_0_0.xdc] for cell 'Final_mb/microblaze_0/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_microblaze_0_axi_intc_0/Final_mb_microblaze_0_axi_intc_0.xdc] for cell 'Final_mb/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_microblaze_0_axi_intc_0/Final_mb_microblaze_0_axi_intc_0.xdc] for cell 'Final_mb/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_clk_wiz_1_0/Final_mb_clk_wiz_1_0_board.xdc] for cell 'Final_mb/clk_wiz_1/inst'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_clk_wiz_1_0/Final_mb_clk_wiz_1_0_board.xdc] for cell 'Final_mb/clk_wiz_1/inst'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_clk_wiz_1_0/Final_mb_clk_wiz_1_0.xdc] for cell 'Final_mb/clk_wiz_1/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_clk_wiz_1_0/Final_mb_clk_wiz_1_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_clk_wiz_1_0/Final_mb_clk_wiz_1_0.xdc:57]
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_clk_wiz_1_0/Final_mb_clk_wiz_1_0.xdc] for cell 'Final_mb/clk_wiz_1/inst'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_rst_clk_wiz_1_100M_0/Final_mb_rst_clk_wiz_1_100M_0_board.xdc] for cell 'Final_mb/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_rst_clk_wiz_1_100M_0/Final_mb_rst_clk_wiz_1_100M_0_board.xdc] for cell 'Final_mb/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_rst_clk_wiz_1_100M_0/Final_mb_rst_clk_wiz_1_100M_0.xdc] for cell 'Final_mb/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_rst_clk_wiz_1_100M_0/Final_mb_rst_clk_wiz_1_100M_0.xdc] for cell 'Final_mb/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_uartlite_0_0/Final_mb_axi_uartlite_0_0_board.xdc] for cell 'Final_mb/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_uartlite_0_0/Final_mb_axi_uartlite_0_0_board.xdc] for cell 'Final_mb/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_uartlite_0_0/Final_mb_axi_uartlite_0_0.xdc] for cell 'Final_mb/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_uartlite_0_0/Final_mb_axi_uartlite_0_0.xdc] for cell 'Final_mb/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_timer_0_0/Final_mb_axi_timer_0_0.xdc] for cell 'Final_mb/timer_usb_axi/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_timer_0_0/Final_mb_axi_timer_0_0.xdc] for cell 'Final_mb/timer_usb_axi/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_0/Final_mb_axi_gpio_0_0_board.xdc] for cell 'Final_mb/gpio_usb_rst/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_0/Final_mb_axi_gpio_0_0_board.xdc] for cell 'Final_mb/gpio_usb_rst/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_0/Final_mb_axi_gpio_0_0.xdc] for cell 'Final_mb/gpio_usb_rst/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_0/Final_mb_axi_gpio_0_0.xdc] for cell 'Final_mb/gpio_usb_rst/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_1/Final_mb_axi_gpio_0_1_board.xdc] for cell 'Final_mb/gpio_usb_int/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_1/Final_mb_axi_gpio_0_1_board.xdc] for cell 'Final_mb/gpio_usb_int/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_1/Final_mb_axi_gpio_0_1.xdc] for cell 'Final_mb/gpio_usb_int/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_1/Final_mb_axi_gpio_0_1.xdc] for cell 'Final_mb/gpio_usb_int/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_2/Final_mb_axi_gpio_0_2_board.xdc] for cell 'Final_mb/gpio_usb_keycode/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_2/Final_mb_axi_gpio_0_2_board.xdc] for cell 'Final_mb/gpio_usb_keycode/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_2/Final_mb_axi_gpio_0_2.xdc] for cell 'Final_mb/gpio_usb_keycode/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_gpio_0_2/Final_mb_axi_gpio_0_2.xdc] for cell 'Final_mb/gpio_usb_keycode/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_quad_spi_0_0/Final_mb_axi_quad_spi_0_0_board.xdc] for cell 'Final_mb/spi_usb/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_quad_spi_0_0/Final_mb_axi_quad_spi_0_0_board.xdc] for cell 'Final_mb/spi_usb/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_quad_spi_0_0/Final_mb_axi_quad_spi_0_0.xdc] for cell 'Final_mb/spi_usb/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_quad_spi_0_0/Final_mb_axi_quad_spi_0_0.xdc] for cell 'Final_mb/spi_usb/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_wiz/inst'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_wiz/inst'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wiz/inst'
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wiz/inst'
+Parsing XDC File [C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/constrs_1/imports/pin_assignment/mb_usb_hdmi_top.xdc]
+Finished Parsing XDC File [C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.srcs/constrs_1/imports/pin_assignment/mb_usb_hdmi_top.xdc]
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_microblaze_0_axi_intc_0/Final_mb_microblaze_0_axi_intc_0_clocks.xdc] for cell 'Final_mb/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_microblaze_0_axi_intc_0/Final_mb_microblaze_0_axi_intc_0_clocks.xdc] for cell 'Final_mb/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_mdm_1_0/Final_mb_mdm_1_0.xdc] for cell 'Final_mb/mdm_1/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_mdm_1_0/Final_mb_mdm_1_0.xdc] for cell 'Final_mb/mdm_1/U0'
+Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_quad_spi_0_0/Final_mb_axi_quad_spi_0_0_clocks.xdc] for cell 'Final_mb/spi_usb/U0'
+Finished Parsing XDC File [c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_axi_quad_spi_0_0/Final_mb_axi_quad_spi_0_0_clocks.xdc] for cell 'Final_mb/spi_usb/U0'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Users/14435/Desktop/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Users/14435/Desktop/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Users/14435/Desktop/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Users/14435/Desktop/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Users/14435/Desktop/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Users/14435/Desktop/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Users/14435/Desktop/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Users/14435/Desktop/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+INFO: [Project 1-1714] 14 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+WARNING: [Constraints 18-5572] Instance Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/IO0_I_REG has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+Generating merged BMM file for the design top 'mb_usb_hdmi_top'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.gen/sources_1/bd/Final_mb/ip/Final_mb_microblaze_0_0/data/mb_bootloop_le.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1534.938 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 247 instances were transformed.
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 145 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 32 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 68 instances
+
+48 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1534.938 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 14b79bf6a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.501 . Memory (MB): peak = 1534.938 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter Final_mb/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/Use_BSCAN.FDC_I/Use_Serial_Unified_Completion.Completion_Status_Register.sample_1[15]_i_1 into driver instance Final_mb/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/Use_BSCAN.FDC_I/Use_Serial_Unified_Completion.Completion_Status_Register.sample_1[15]_i_2, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/FSM_onehot_gen_rst_ic.curr_wrst_state[4]_i_1 into driver instance Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst//i_, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/FSM_onehot_gen_rst_ic.curr_wrst_state[4]_i_1 into driver instance Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst//i_, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/LOCAL_TX_EMPTY_FIFO_12_GEN.stop_clock_reg_i_1 into driver instance Final_mb/spi_usb/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/SS_O[0]_i_2, which resulted in an inversion of 3 pins
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 6 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1465102a9
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.782 . Memory (MB): peak = 1848.270 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 253 cells and removed 366 cells
+INFO: [Opt 31-1021] In phase Retarget, 4 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 5 inverter(s) to 5 load pin(s).
+Phase 2 Constant propagation | Checksum: 1d9e7d729
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.886 . Memory (MB): peak = 1848.270 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 31 cells and removed 128 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 2 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 15b5ec435
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1848.270 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 252 cells
+INFO: [Opt 31-1021] In phase Sweep, 8 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG Clk_IBUF_BUFG_inst to drive 289 load(s) on clock net Clk_IBUF_BUFG
+INFO: [Opt 31-194] Inserted BUFG Final_mb/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG_inst to drive 40 load(s) on clock net Final_mb/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG
+INFO: [Opt 31-193] Inserted 2 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: 16f99431f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1848.270 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 2 cells of which 2 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 16f99431f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1848.270 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 18d942d83
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1848.270 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 2 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             253  |             366  |                                              4  |
+|  Constant propagation         |              31  |             128  |                                              2  |
+|  Sweep                        |               0  |             252  |                                              8  |
+|  BUFG optimization            |               2  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              2  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1848.270 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 9a9be890
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1848.270 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 93 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 6 Total Ports: 186
+Ending PowerOpt Patch Enables Task | Checksum: 185fb49dc
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.340 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 185fb49dc
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 2185.297 ; gain = 337.027
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 185fb49dc
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 21a7e985f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 2185.297 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+82 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 2185.297 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/mb_usb_hdmi_top_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file mb_usb_hdmi_top_drc_opted.rpt -pb mb_usb_hdmi_top_drc_opted.pb -rpx mb_usb_hdmi_top_drc_opted.rpx
+Command: report_drc -file mb_usb_hdmi_top_drc_opted.rpt -pb mb_usb_hdmi_top_drc_opted.pb -rpx mb_usb_hdmi_top_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/mb_usb_hdmi_top_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 42 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 128f0ec68
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 21951f2e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.883 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: d4aa0e81
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: d4aa0e81
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: d4aa0e81
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 6d3864ea
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: fddaf808
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: fddaf808
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 8688c962
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 316 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 137 nets or LUTs. Breaked 0 LUT, combined 137 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-775] End 1 Pass. Optimized 7 nets or cells. Created 14 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2185.297 ; gain = 0.000
+INFO: [Physopt 32-527] Pass 1: Identified 70 candidate cells for BRAM register optimization
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 2 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 4 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 2 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 1 register was pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 1 register was pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 18 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line492/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 2 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line492/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 18 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line492/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 18 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line473/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line473/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 18 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 2 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 4 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 2 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 18 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 18 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line492/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 6 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line473/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 6 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 6 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 6 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line445/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line444/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line443/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line445/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 18 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line444/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 18 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line443/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 18 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line444/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line445/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line443/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 2 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 6 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line473/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 6 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line496/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 18 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line482/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 18 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line444/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 6 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line445/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 6 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line496/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line496/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line443/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 6 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line466/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram. 9 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell color_instance/nolabel_line482/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram. 9 registers were pushed out.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 70 nets or cells. Created 634 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.103 . Memory (MB): peak = 2185.297 ; gain = 0.000
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |            137  |                   137  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |           14  |              0  |                     7  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |          634  |              0  |                    70  |           0  |           1  |  00:00:02  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |          648  |            137  |                   214  |           0  |           9  |  00:00:03  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 2161295bb
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Phase 2.4 Global Placement Core | Checksum: 2810b3f91
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 2810b3f91
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 226bd9bde
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 10c831a12
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 12011721f
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 158da0a23
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 147972962
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:18 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 259f9f651
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:21 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 2319bc940
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:21 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 1e7d9ffaa
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:21 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 220d29f1e
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:30 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 220d29f1e
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:30 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 15a872e57
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-2.452 | TNS=-50.565 |
+Phase 1 Physical Synthesis Initialization | Checksum: df51932e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.433 . Memory (MB): peak = 2185.297 ; gain = 0.000
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 168cff4b3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.521 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 15a872e57
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:33 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-1.600. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 1661b0265
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:47 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:47 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 1661b0265
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:47 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1661b0265
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:47 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                1x1|
+|___________|___________________|___________________|
+|      South|                1x1|                2x2|
+|___________|___________________|___________________|
+|       East|                1x1|                1x1|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 1661b0265
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:47 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Phase 4.3 Placer Reporting | Checksum: 1661b0265
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:47 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:47 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1c42cc17f
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:47 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Ending Placer Task | Checksum: 15844cd62
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:47 . Memory (MB): peak = 2185.297 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+192 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.929 . Memory (MB): peak = 2185.297 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/mb_usb_hdmi_top_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file mb_usb_hdmi_top_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.052 . Memory (MB): peak = 2185.297 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file mb_usb_hdmi_top_utilization_placed.rpt -pb mb_usb_hdmi_top_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file mb_usb_hdmi_top_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 2185.297 ; gain = 0.000
+INFO: [Vivado_Tcl 4-1435] PhysOpt_Tcl_Interface Runtime Before Starting Physical Synthesis Task | CPU: 0.00s |  WALL: 1.47s
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.600 | TNS=-33.371 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1b30a141b
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.820 . Memory (MB): peak = 2185.297 ; gain = 0.000
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.600 | TNS=-33.371 |
+
+Phase 2 DSP Register Optimization
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 2 DSP Register Optimization | Checksum: 1b30a141b
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.897 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 3 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.600 | TNS=-33.371 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[26]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-1134] Processed net color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[8].ram.ram_douta[4]_alias. Created 2 instances.
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[8].ram.ram_douta[4]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.559 | TNS=-32.692 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-1134] Processed net color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[8].ram.ram_douta[4]_alias. Created 2 instances.
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[8].ram.ram_douta[4]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.521 | TNS=-32.028 |
+INFO: [Physopt 32-663] Processed net vga_to_hdmi/inst/srldly_0/data_o[25].  Re-placed instance vga_to_hdmi/inst/srldly_0/srl[27].srl16_i
+INFO: [Physopt 32-735] Processed net vga_to_hdmi/inst/srldly_0/data_o[25]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.480 | TNS=-31.889 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[37]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[8].ram.ram_douta[4]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/blue[7]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_17_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[7]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.445 | TNS=-31.774 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[33]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/blue[3]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_21_comp.
+INFO: [Physopt 32-735] Processed net bomb1/player1_dead_reg. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.425 | TNS=-31.728 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[29]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/green[7]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_9_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[15]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.404 | TNS=-31.684 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_12. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/blue[2]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_22_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[2]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.394 | TNS=-31.514 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[21]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-1134] Processed net color_instance/bbstub_douta[23]. Created 2 instances.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[23]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.388 | TNS=-31.047 |
+INFO: [Physopt 32-702] Processed net color_instance/bbstub_douta[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net color_instance/bbstub_douta[3]. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_70_comp.
+INFO: [Physopt 32-735] Processed net bomb1/player1_dead_reg. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.388 | TNS=-31.010 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/green[6]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_10_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[14]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.387 | TNS=-30.756 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 11 pins.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[9]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.383 | TNS=-30.664 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_3. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 17 pins.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[21]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.381 | TNS=-30.605 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[25]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/green[3]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_13_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[11]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.379 | TNS=-30.506 |
+INFO: [Physopt 32-1134] Processed net bomb1/player1_dead_reg. Created 1 instance.
+INFO: [Physopt 32-735] Processed net bomb1/player1_dead_reg. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.371 | TNS=-30.310 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_4. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/red[2]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_6_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[18]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.365 | TNS=-30.211 |
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line492/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[11]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_172_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.359 | TNS=-30.146 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_6. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/green[5]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_11_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[13]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.357 | TNS=-29.971 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_10. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/blue[5]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_19_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[5]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.331 | TNS=-29.780 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_9. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/blue[0]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_24_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.330 | TNS=-29.492 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[3]_alias.  Re-placed instance color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[3]_INST_0_psbram
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[3]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.324 | TNS=-29.470 |
+INFO: [Physopt 32-702] Processed net color_instance/bbstub_douta[21]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_103_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_103
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_103_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.322 | TNS=-29.396 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_1. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/green[2]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_14_comp.
+INFO: [Physopt 32-735] Processed net bomb1/player1_dead_reg. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.319 | TNS=-29.359 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[0].ram.ram_douta[3]_alias.  Re-placed instance color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[3]_INST_0_psbram_1
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[0].ram.ram_douta[3]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.317 | TNS=-29.333 |
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_193_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net color_instance/vga_to_hdmi_i_193_n_0. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_193_comp.
+INFO: [Physopt 32-735] Processed net bomb1/sel0[5]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.302 | TNS=-29.491 |
+INFO: [Physopt 32-710] Processed net bomb1/green[1]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_15_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[9]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.300 | TNS=-29.377 |
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_172_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_170_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_170
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_170_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.299 | TNS=-29.365 |
+INFO: [Physopt 32-702] Processed net bomb1/player1_dead_reg. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/player1_dead_reg. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_26_comp_3.
+INFO: [Physopt 32-735] Processed net bomb1/sel0[5]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.296 | TNS=-28.569 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 11 pins.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.295 | TNS=-28.403 |
+INFO: [Physopt 32-81] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[1]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.294 | TNS=-28.397 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 18 pins.
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_192_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.290 | TNS=-28.393 |
+INFO: [Physopt 32-81] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[0]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.288 | TNS=-28.343 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram_0[0]_alias.  Re-placed instance color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[2]_INST_0_psbram
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram_0[0]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.286 | TNS=-28.327 |
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_153_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net color_instance/vga_to_hdmi_i_153_n_0. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_153_comp.
+INFO: [Physopt 32-735] Processed net bomb1/sel0[5]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.280 | TNS=-28.326 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_5. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/red[6]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_2_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[22]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.280 | TNS=-28.254 |
+INFO: [Physopt 32-81] Processed net color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[1]. Replicated 2 times.
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.272 | TNS=-28.226 |
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_117_0.  Re-placed instance color_instance/vga_to_hdmi_i_39
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_117_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.269 | TNS=-28.119 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_15. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/green[0]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_16_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[8]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.266 | TNS=-27.949 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/DOADO[0]_alias.  Re-placed instance color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[0]_INST_0_psbram
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/DOADO[0]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.257 | TNS=-27.921 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_8. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/blue[4]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_20_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[4]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.252 | TNS=-27.781 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[2]_alias.  Re-placed instance color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[2]_INST_0_psbram
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[2]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.252 | TNS=-27.741 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram_0[0]_alias_1.  Re-placed instance color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[0]_INST_0_psbram_1
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram_0[0]_alias_1. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.247 | TNS=-27.687 |
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_197_0.  Re-placed instance color_instance/vga_to_hdmi_i_71
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_197_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.225 | TNS=-27.614 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_13. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/blue[6]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_18_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[6]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.225 | TNS=-27.479 |
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram_0[0]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net bomb1/vga_to_hdmi_i_27_n_0. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net bomb1/vga_to_hdmi_i_27_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.225 | TNS=-27.474 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_152_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.213 | TNS=-27.252 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[4]_alias.  Re-placed instance color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[4]_INST_0_psbram
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[4]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.212 | TNS=-27.197 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_14. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/green[4]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_12_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[12]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.208 | TNS=-27.143 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 21 pins.
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_97_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.207 | TNS=-27.000 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_11. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/blue[1]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_23_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.200 | TNS=-26.961 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 18 pins.
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_192_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.199 | TNS=-26.960 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[5]_alias.  Re-placed instance color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[5]_INST_0_psbram
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[5]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.195 | TNS=-26.925 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_2. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/red[1]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_7_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[17]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.192 | TNS=-26.782 |
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[3]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_194_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_194
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_194_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.177 | TNS=-26.748 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 12 pins.
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_182_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.176 | TNS=-26.739 |
+INFO: [Physopt 32-710] Processed net bomb1/blue[7]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_17_comp_1.
+INFO: [Physopt 32-735] Processed net bomb1/vga_to_hdmi_i_27_n_0_repN. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.174 | TNS=-26.699 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 6 pins.
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_197_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.168 | TNS=-26.682 |
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_182_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_180_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_180
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_180_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.168 | TNS=-26.566 |
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_202_0.  Re-placed instance color_instance/vga_to_hdmi_i_73
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_202_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.165 | TNS=-26.544 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 6 pins.
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_117_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.158 | TNS=-26.435 |
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_148_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_148
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_148_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.158 | TNS=-26.300 |
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_192_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_190_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_190
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_190_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.157 | TNS=-26.282 |
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_198_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_198
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_198_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.146 | TNS=-26.098 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 12 pins.
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_202_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.143 | TNS=-25.986 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_19. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/red[3]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_5_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[19]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.142 | TNS=-25.888 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_20. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_132_0.  Re-placed instance color_instance/vga_to_hdmi_i_45
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_132_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.140 | TNS=-25.776 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 12 pins.
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_190_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.137 | TNS=-25.747 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_18. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/red[7]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_1_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[23]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.135 | TNS=-25.710 |
+INFO: [Physopt 32-702] Processed net color_instance/bbstub_douta[10]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_158_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net color_instance/vga_to_hdmi_i_158_n_0. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_158_comp.
+INFO: [Physopt 32-735] Processed net bomb1/sel0[5]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.135 | TNS=-25.651 |
+INFO: [Physopt 32-81] Processed net color_instance/vga_to_hdmi_i_87_n_0. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_87_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.130 | TNS=-24.870 |
+INFO: [Physopt 32-663] Processed net color_instance/bbstub_douta[9].  Re-placed instance color_instance/vga_to_hdmi_i_58_comp
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[9]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.112 | TNS=-24.798 |
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_104_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_104
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_104_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.097 | TNS=-24.783 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_16. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/red[0]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_8_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[16]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.097 | TNS=-24.660 |
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_103_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net color_instance/vga_to_hdmi_i_103_n_0. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_103_comp.
+INFO: [Physopt 32-735] Processed net bomb1/sel0[5]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.090 | TNS=-24.562 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[0].ram.ram_douta[6]_alias.  Re-placed instance color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[6]_INST_0_psbram
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[0].ram.ram_douta[6]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.081 | TNS=-24.542 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_17. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/red[4]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_4_comp.
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[20]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.081 | TNS=-24.474 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[2].ram.ram_douta[2]_alias.  Re-placed instance color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[11]_INST_0_psbram_1
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[2].ram.ram_douta[2]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.079 | TNS=-24.472 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[4]_alias.  Re-placed instance color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[4]_INST_0_psbram_1
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[4]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.078 | TNS=-24.463 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[11]_alias.  Re-placed instance color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[11]_INST_0_psbram
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[11]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.073 | TNS=-24.456 |
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_138_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_138
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_138_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.071 | TNS=-24.391 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[6]_alias.  Re-placed instance color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[6]_INST_0_psbram_1
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[6]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.061 | TNS=-24.365 |
+INFO: [Physopt 32-663] Processed net bomb1/vga_to_hdmi_i_27_n_0_repN.  Re-placed instance bomb1/vga_to_hdmi_i_27_replica
+INFO: [Physopt 32-735] Processed net bomb1/vga_to_hdmi_i_27_n_0_repN. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.058 | TNS=-23.523 |
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_123_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_123
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_123_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.055 | TNS=-23.366 |
+INFO: [Physopt 32-663] Processed net color_instance/bbstub_douta[7].  Re-placed instance color_instance/vga_to_hdmi_i_62_comp
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[7]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.053 | TNS=-23.359 |
+INFO: [Physopt 32-81] Processed net color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[1]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[1]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.048 | TNS=-23.329 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line473/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[2]_alias.  Re-placed instance color_instance/nolabel_line473/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[2]_INST_0_psbram_1
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line473/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[2]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.029 | TNS=-23.298 |
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_148_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net color_instance/vga_to_hdmi_i_148_n_0. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_148_comp.
+INFO: [Physopt 32-735] Processed net bomb1/sel0[5]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.023 | TNS=-23.162 |
+INFO: [Physopt 32-601] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[0]. Net driver color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_norm_sel2.has_mem_regs.WITHOUT_ECC_PIPE.ce_pri.sel_pipe_d1_reg[0] was replaced.
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.020 | TNS=-23.159 |
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[0].ram.ram_douta[7]_alias.  Re-placed instance color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[7]_INST_0_psbram
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[0].ram.ram_douta[7]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.019 | TNS=-23.154 |
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_173_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_173
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_173_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.016 | TNS=-23.120 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 19 pins.
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_194_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.015 | TNS=-23.109 |
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_108_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_108
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_108_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.015 | TNS=-23.104 |
+INFO: [Physopt 32-81] Processed net color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[0]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[0]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.010 | TNS=-23.099 |
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_108_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net color_instance/vga_to_hdmi_i_108_n_0. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_108_comp.
+INFO: [Physopt 32-735] Processed net bomb1/sel0[5]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.010 | TNS=-22.928 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 19 pins.
+INFO: [Physopt 32-735] Processed net bomb1/vga_to_hdmi_i_27_n_0_repN. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.008 | TNS=-22.674 |
+INFO: [Physopt 32-710] Processed net color_instance/bbstub_douta[10]. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_56_comp.
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_159_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.008 | TNS=-22.668 |
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_139_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_139
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_139_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.005 | TNS=-22.596 |
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[33]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram_0[0]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/bbstub_douta[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 19 pins.
+INFO: [Physopt 32-735] Processed net color_instance/vga_to_hdmi_i_194_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.002 | TNS=-22.565 |
+INFO: [Common 17-14] Message 'Physopt 32-619' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_1. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[3]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/bbstub_douta[10].  Re-placed instance color_instance/vga_to_hdmi_i_56_comp
+INFO: [Physopt 32-735] Processed net color_instance/bbstub_douta[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_13. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[2]_alias.  Re-placed instance color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[2]_INST_0_psbram_1
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[2]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[11]_alias.  Re-placed instance color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[11]_INST_0_psbram
+INFO: [Physopt 32-735] Processed net color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[11]_alias. Optimization improves timing on the net.
+INFO: [Common 17-14] Message 'Physopt 32-735' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[0].ram.ram_douta[0]_alias.  Re-placed instance color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[0]_INST_0_psbram
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[0].ram.ram_douta[2]_alias.  Re-placed instance color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[2]_INST_0_psbram
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[11]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_177_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_175_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_175
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_15. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[8].ram.ram_douta[4]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_168_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_168
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[37]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line492/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[11]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_172_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 9 pins.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[25]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/bbstub_douta[11].  Re-placed instance color_instance/vga_to_hdmi_i_54_comp
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_12. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_198_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 15 pins.
+INFO: [Physopt 32-702] Processed net color_instance/bbstub_douta[11]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_154_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_154
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line473/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[10]_alias.  Re-placed instance color_instance/nolabel_line473/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[10]_INST_0_psbram
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_8. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[0]_alias.  Re-placed instance color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[0]_INST_0_psbram_1
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_192_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 15 pins.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_10. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/bbstub_douta[5].  Re-placed instance color_instance/vga_to_hdmi_i_66_comp
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_3. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 17 pins.
+INFO: [Physopt 32-702] Processed net bomb1/vga_to_hdmi_i_27_n_0_repN_1. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net bomb1/player1_dead_reg. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/red240_in. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_239_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_261_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[10]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[10]_INST_0_i_1_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-702] Processed net color_instance/bbstub_douta[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_184_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_184
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[1].  Re-placed instance color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_norm_sel2.has_mem_regs.WITHOUT_ECC_PIPE.ce_pri.sel_pipe_d1_reg[1]
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_19. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_114_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_114
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 16 pins.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_18. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_94_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_94
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_194_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 6 pins.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 15 pins.
+INFO: [Physopt 32-702] Processed net bomb1/sel0[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/red230_in.  Re-placed instance color_instance/vga_to_hdmi_i_218
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[7]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_176_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_176
+INFO: [Physopt 32-702] Processed net bomb1/sel0[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/red234_in.  Re-placed instance color_instance/vga_to_hdmi_i_220
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_87_n_0_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 14 pins.
+INFO: [Physopt 32-702] Processed net color_instance/red234_in. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_251_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_269_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_269
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_269_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_291_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_291
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_191_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_191
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_187_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_185_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_185
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_291_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net bomb1/blue[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Clk_IBUF. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Clk. Optimizations did not improve timing on the net.
+Phase 3 Critical Path Optimization | Checksum: 11ff99d18
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:17 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 4 Critical Path Optimization
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[33]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line487/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram_0[0]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/bbstub_douta[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_194_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net bomb1/sel0[3]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/sel0[3]. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_83_comp.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_19. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line492/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[11]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_10. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line493/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[7]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_182_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_181_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_181
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_1. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_157_0.  Re-placed instance color_instance/vga_to_hdmi_i_55
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_5. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_97_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_95_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_95
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[2].ram.ram_douta[7]_alias.  Re-placed instance color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[16]_INST_0_psbram_1
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_96_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_96
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 21 pins.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 18 pins.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_18. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_92_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_90_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_90
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[16]_alias.  Re-placed instance color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[16]_INST_0_psbram
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[37]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[8].ram.ram_douta[4]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_173_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net color_instance/vga_to_hdmi_i_173_n_0. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_173_comp.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_6. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 12 pins.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_16. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_127_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_125_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_125
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[0].ram.ram_douta[3]_alias.  Re-placed instance color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[3]_INST_0_psbram_1
+INFO: [Physopt 32-601] Processed net color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[1]. Net driver color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_norm_sel2.has_mem_regs.WITHOUT_ECC_PIPE.ce_pri.sel_pipe_d1_reg[1] was replaced.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[25]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_152_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_150_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_150
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[11]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_172_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_87_n_0_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-81] Processed net bomb1/sel0[1]. Replicated 1 times.
+INFO: [Physopt 32-663] Processed net bomb1/vga_to_hdmi_i_27_n_0_repN_2.  Re-placed instance bomb1/vga_to_hdmi_i_27_replica_comp_1
+INFO: [Physopt 32-702] Processed net bomb2/player1_dead_reg. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb2/player1_dead_reg. Critical path length was reduced through logic transformation on cell bomb2/vga_to_hdmi_i_88_comp.
+INFO: [Physopt 32-710] Processed net color_instance/vga_to_hdmi_i_87_n_0_repN. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_87_replica_comp.
+INFO: [Physopt 32-702] Processed net bomb1/vga_to_hdmi_i_27_n_0_repN_2. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net bomb1/vga_to_hdmi_i_27_n_0_repN_2. Critical path length was reduced through logic transformation on cell bomb1/vga_to_hdmi_i_27_replica_comp_2.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[3]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net color_instance/vga_to_hdmi_i_194_n_0. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_194_comp.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_112_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_110_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_110
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_192_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_87_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net color_instance/vga_to_hdmi_i_87_n_0. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_87_comp.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 18 pins.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_14. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 17 pins.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_15. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-663] Processed net bomb1/vga_to_hdmi_i_27_n_0_repN_1.  Re-placed instance bomb1/vga_to_hdmi_i_27_replica_comp
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_11. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_204_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_204
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_251_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_251
+INFO: [Physopt 32-702] Processed net color_instance/bbstub_douta[7]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net color_instance/bbstub_douta[7]. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_62_comp_1.
+INFO: [Physopt 32-710] Processed net color_instance/vga_to_hdmi_i_92_0. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_29_comp.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 12 pins.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_137_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_135_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_135
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_12. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_197_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_195_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_195
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 12 pins.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_95_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net color_instance/vga_to_hdmi_i_95_n_0. Critical path length was reduced through logic transformation on cell color_instance/vga_to_hdmi_i_95_comp.
+INFO: [Physopt 32-601] Processed net color_instance/nolabel_line473/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[1]. Net driver color_instance/nolabel_line473/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_norm_sel2.has_mem_regs.WITHOUT_ECC_PIPE.ce_pri.sel_pipe_d1_reg[1] was replaced.
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[0].ram.ram_douta[7]_alias.  Re-placed instance color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[7]_INST_0_psbram_1
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line473/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[2].ram.ram_douta[1]_alias.  Re-placed instance color_instance/nolabel_line473/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[10]_INST_0_psbram_1
+INFO: [Physopt 32-601] Processed net color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_d1[1]_repN. Net driver color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/no_softecc_norm_sel2.has_mem_regs.WITHOUT_ECC_PIPE.ce_pri.sel_pipe_d1_reg[1]_replica was replaced.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 12 pins.
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[2]_alias.  Re-placed instance color_instance/nolabel_line479/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[2]_INST_0_psbram
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 23 pins.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line492/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[11]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_137_0.  Re-placed instance color_instance/vga_to_hdmi_i_47
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_6. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_142_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/vga_to_hdmi_i_140_n_0.  Re-placed instance color_instance/vga_to_hdmi_i_140
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[33]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line478/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[11]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_192_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_190_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net bomb1/sel0[1]_repN.  Re-placed instance bomb1/vga_to_hdmi_i_229_replica
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/data_o[37]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_172_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_170_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net bomb2/sel0[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 11 pins.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_10. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net color_instance/nolabel_line445/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[5]_alias.  Re-placed instance color_instance/nolabel_line445/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[5]_INST_0_psbram_1
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_13. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line488/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[1].ram.ram_douta[3]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 13 pins.
+INFO: [Physopt 32-702] Processed net vga_to_hdmi/inst/srldly_0/srlopt_n_12. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/ramloop[8].ram.ram_douta[4]_alias. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_198_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net bomb1/sel0[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/red240_in. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_239_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/vga_to_hdmi_i_261_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[10]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net color_instance/nolabel_line472/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/douta[10]_INST_0_i_1_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net bomb1/blue[2]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Clk_IBUF. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Clk. Optimizations did not improve timing on the net.
+Phase 4 Critical Path Optimization | Checksum: 1090b4f39
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:28 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 2185.297 ; gain = 0.000
+INFO: [Physopt 32-603] Post Physical Optimization Timing Summary | WNS=-0.646 | TNS=-14.211 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization   |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  DSP Register   |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Path  |          0.954  |         19.160  |           16  |              0  |                   182  |           0  |           2  |  00:00:27  |
+|  Total          |          0.954  |         19.160  |           16  |              0  |                   182  |           0  |           3  |  00:00:27  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Ending Physical Synthesis Task | Checksum: 18ab795fd
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:28 . Memory (MB): peak = 2185.297 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+748 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2185.297 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/mb_usb_hdmi_top_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: c08b68e0 ConstDB: 0 ShapeSum: 54ad466b RouteDB: 0
+Post Restoration Checksum: NetGraph: a7a0d589 NumContArr: 1500d8f0 Constraints: 0 Timing: 0
+Phase 1 Build RT Design | Checksum: bca1ae79
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:19 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: bca1ae79
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:19 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: bca1ae79
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:19 . Memory (MB): peak = 2185.297 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 23c034356
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 2185.297 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.590 | TNS=-11.703| WHS=-1.073 | THS=-392.919|
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.182731 %
+  Global Horizontal Routing Utilization  = 0.138079 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 8673
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 8596
+  Number of Partially Routed Nets     = 77
+  Number of Node Overlaps             = 555
+
+Phase 2 Router Initialization | Checksum: 1d97c8661
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:24 . Memory (MB): peak = 2185.297 ; gain = 0.000
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 1d97c8661
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:24 . Memory (MB): peak = 2185.297 ; gain = 0.000
+Phase 3 Initial Routing | Checksum: 209af09bc
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:01:00 . Memory (MB): peak = 2645.402 ; gain = 460.105
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 1202
+ Number of Nodes with overlaps = 283
+ Number of Nodes with overlaps = 112
+ Number of Nodes with overlaps = 41
+ Number of Nodes with overlaps = 22
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.135 | TNS=-22.321| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1f7d08586
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:55 . Memory (MB): peak = 2645.402 ; gain = 460.105
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 540
+ Number of Nodes with overlaps = 173
+ Number of Nodes with overlaps = 54
+ Number of Nodes with overlaps = 20
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.285 | TNS=-23.389| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 12ae5570a
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:02:11 . Memory (MB): peak = 2645.402 ; gain = 460.105
+Phase 4 Rip-up And Reroute | Checksum: 12ae5570a
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:02:11 . Memory (MB): peak = 2645.402 ; gain = 460.105
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: bed2f1ee
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:02:11 . Memory (MB): peak = 2645.402 ; gain = 460.105
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.135 | TNS=-22.321| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: de1af112
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:02:12 . Memory (MB): peak = 2645.402 ; gain = 460.105
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: de1af112
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:02:12 . Memory (MB): peak = 2645.402 ; gain = 460.105
+Phase 5 Delay and Skew Optimization | Checksum: de1af112
+
+Time (s): cpu = 00:01:42 ; elapsed = 00:02:12 . Memory (MB): peak = 2645.402 ; gain = 460.105
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 13c7f92a3
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:02:12 . Memory (MB): peak = 2645.402 ; gain = 460.105
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.121 | TNS=-22.129| WHS=-0.026 | THS=-0.026 |
+
+Phase 6.1 Hold Fix Iter | Checksum: 245be3159
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:02:13 . Memory (MB): peak = 2645.402 ; gain = 460.105
+Phase 6 Post Hold Fix | Checksum: 1af531aa4
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:02:13 . Memory (MB): peak = 2645.402 ; gain = 460.105
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 4.7849 %
+  Global Horizontal Routing Utilization  = 4.63639 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 54.955%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 61.2613%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 75%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 55.8824%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 7 Route finalize | Checksum: 24d2ce5ee
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:02:13 . Memory (MB): peak = 2645.402 ; gain = 460.105
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 24d2ce5ee
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:02:13 . Memory (MB): peak = 2645.402 ; gain = 460.105
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1daac220c
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:02:14 . Memory (MB): peak = 2645.402 ; gain = 460.105
+
+Phase 10 Post Router Timing
+
+Phase 10.1 Update Timing
+Phase 10.1 Update Timing | Checksum: 1a7b9d31f
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:02:15 . Memory (MB): peak = 2645.402 ; gain = 460.105
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-1.121 | TNS=-22.129| WHS=0.052  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 1a7b9d31f
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:02:15 . Memory (MB): peak = 2645.402 ; gain = 460.105
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:02:15 . Memory (MB): peak = 2645.402 ; gain = 460.105
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+767 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2645.402 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/mb_usb_hdmi_top_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file mb_usb_hdmi_top_drc_routed.rpt -pb mb_usb_hdmi_top_drc_routed.pb -rpx mb_usb_hdmi_top_drc_routed.rpx
+Command: report_drc -file mb_usb_hdmi_top_drc_routed.rpt -pb mb_usb_hdmi_top_drc_routed.pb -rpx mb_usb_hdmi_top_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/mb_usb_hdmi_top_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file mb_usb_hdmi_top_methodology_drc_routed.rpt -pb mb_usb_hdmi_top_methodology_drc_routed.pb -rpx mb_usb_hdmi_top_methodology_drc_routed.rpx
+Command: report_methodology -file mb_usb_hdmi_top_methodology_drc_routed.rpt -pb mb_usb_hdmi_top_methodology_drc_routed.pb -rpx mb_usb_hdmi_top_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/14435/Desktop/ECE385/Final Project/Final Project/Final Project.runs/impl_1/mb_usb_hdmi_top_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file mb_usb_hdmi_top_power_routed.rpt -pb mb_usb_hdmi_top_power_summary_routed.pb -rpx mb_usb_hdmi_top_power_routed.rpx
+Command: report_power -file mb_usb_hdmi_top_power_routed.rpt -pb mb_usb_hdmi_top_power_summary_routed.pb -rpx mb_usb_hdmi_top_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+780 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file mb_usb_hdmi_top_route_status.rpt -pb mb_usb_hdmi_top_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file mb_usb_hdmi_top_timing_summary_routed.rpt -pb mb_usb_hdmi_top_timing_summary_routed.pb -rpx mb_usb_hdmi_top_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file mb_usb_hdmi_top_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file mb_usb_hdmi_top_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file mb_usb_hdmi_top_bus_skew_routed.rpt -pb mb_usb_hdmi_top_bus_skew_routed.pb -rpx mb_usb_hdmi_top_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 30 20:17:55 2024...
