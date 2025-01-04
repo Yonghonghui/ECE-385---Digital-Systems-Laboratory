@@ -1,8 +1,11 @@
 UIUC ECE 385 Digital Systems Laboratory -- Spring 2024
 
+(1) Overview:
+
 Design, build, and test digital systems using transistor-transistor logic (TTL), SystemVerilog, and field-programmable gate arrays (FPGAs). Topics include combinational and sequential logic, storage elements, input/output and display, timing analysis, design tradeoffs, synchronous and asynchronous design methods, datapath and controller, microprocessor design, software/hardware co-design, and system-on-a-chip(SOC). 
 
-Topics:
+(2) Topics:
+
 Combinational logic circuits
 Storage elements
 Hazards and race conditions
@@ -16,7 +19,8 @@ Logic simulation and testbenches
 Microprocessors and system on chip
 Project using a microprocessor and system on chip concepts
 
-Final Project: “Crazy Arcade”
+(3) Final Project: “Crazy Arcade”
+
 It’s a multiplayer game that supports two users playing against each other while using
 the same USB keyboard to provide input control signals. Player 1 uses W, A. S,
 D to make movement and space to place bomb, while the second player use up,
