@@ -43,3 +43,9 @@ screen properly, we plan to use HDMI cable that connects to external monitor
 to provide support. The SystemVerilog essential components used including
 system bus that connects modules, Microblaze CPU and the MAX3421E USB
 host chipset, VGA Video Support and Keyboard, and on-chip memory
+
+
+
+
+https://github.com/user-attachments/assets/aec91a50-0063-41d7-86d5-df32cde137e1
+
